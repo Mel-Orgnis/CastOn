@@ -1294,7 +1294,7 @@ master IP로 slave 연동 <br></br> <br></br>
  <details>
   <summary> DATETIME </summary>
     <p align="center">
-      <img src="gif/제약조건/dtype_question_boare_datetime.gif">
+      <img src="gif/제약조건/dtype_question_board_datetime.gif">
     </p>
   </details> 
 
