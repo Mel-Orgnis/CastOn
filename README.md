@@ -103,10 +103,11 @@ comment = '실';
   ```
 </details> 
 
- <details>
-  <summary><strong>회원 테이블</strong></summary>
-    ```
-     CREATE TABLE IF NOT EXISTS member
+<details>
+ <summary><strong>회원 테이블</strong></summary>
+  
+  ```
+ CREATE TABLE IF NOT EXISTS member
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '회원 ID',
     id VARCHAR(255) NOT NULL COMMENT '아이디',
@@ -124,12 +125,14 @@ comment = '실';
     PRIMARY KEY (no)
 )
 COMMENT = '회원';       
-     ```
-  </details> 
-  <details>
+   ```
+</details> 
+
+<details>
   <summary><strong>질문게시판 테이블</strong></summary>
-    ```
-     CREATE TABLE IF NOT EXISTS question_board
+  
+   ```
+    CREATE TABLE IF NOT EXISTS question_board
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '질문 게시글 ID',
     title VARCHAR(255) NOT NULL COMMENT '질문 제목',
@@ -146,11 +149,14 @@ COMMENT = '회원';
 )
 COMMENT = '질문게시판';
 ```
-  </details> 
-  <details>
+
+</details>
+
+<details>
   <summary><strong>질문답변 테이블</strong></summary>
-    ```
-     CREATE TABLE IF NOT EXISTS answer
+    
+  ```
+  CREATE TABLE IF NOT EXISTS answer
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '답변 ID',
     content MEDIUMTEXT NOT NULL COMMENT '답변 내용',
@@ -165,10 +171,13 @@ COMMENT = '질문게시판';
 )
 COMMENT = '질문답변';
  ```
-  </details> 
+
+</details>
+
   <details>
   <summary><strong>문의 게시판 테이블</strong></summary>
-    ```
+    
+  ```
     CREATE TABLE IF NOT EXISTS ask
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '문의 ID',
@@ -185,7 +194,8 @@ COMMENT = '문의';
   </details> 
   <details>
   <summary><strong>블랙리스트 이력 테이블</strong></summary>
-    ```
+    
+ ```
     CREATE TABLE IF NOT EXISTS blacklist_history
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '블랙리스트 ID',
@@ -201,7 +211,8 @@ COMMENT = '블랙리스트 이력';
   </details> 
   <details>
   <summary><strong>게시판 테이블</strong></summary>
-    ```
+    
+```
      CREATE TABLE IF NOT EXISTS board
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '게시글 ID',
@@ -230,7 +241,8 @@ COMMENT = '게시글';
   </details> 
   <details>
   <summary><strong>회원참여행사 테이블</strong></summary>
-    ```
+   
+  ```
      CREATE TABLE IF NOT EXISTS event_part_member
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '회원별행사 ID',
@@ -243,9 +255,11 @@ COMMENT = '게시글';
 COMMENT = '회원참여행사';
 ```
   </details> 
+  
 <details>
   <summary><strong>도안 공유 게시판 테이블</strong></summary>
-    ```
+  
+  ```
      CREATE TABLE IF NOT EXISTS pattern_share
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '도안 공유 게시글 ID',
@@ -268,9 +282,11 @@ COMMENT = '회원참여행사';
 COMMENT = '도안 공유 게시판';  
 ```
   </details> 
+  
 <details>
   <summary><strong>실_도안 테이블</strong></summary>
-    ```
+  
+   ```
      CREATE TABLE IF NOT EXISTS fiber_ptrn_info
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '실_게시판 ID',
@@ -283,9 +299,11 @@ COMMENT = '도안 공유 게시판';
 COMMENT = '실_도안정보';
 ```
   </details> 
+  
 <details>
   <summary><strong>회원 이력 테이블</strong></summary>
-    ```
+  
+  ```
      CREATE TABLE IF NOT EXISTS member_history
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '회원 이력 ID',
@@ -310,9 +328,11 @@ COMMENT = '실_도안정보';
 COMMENT = '회원 이력';
 ```
   </details> 
+  
 <details>
   <summary><strong>회원 로그인 이력 테이블</strong></summary>
-    ```
+  
+   ```
      CREATE TABLE IF NOT EXISTS member_login_history
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '회원 로그인 이력 ID',
@@ -325,9 +345,11 @@ COMMENT = '회원 이력';
 COMMENT = '회원 로그인 이력';
 ```
   </details> 
+  
 <details>
   <summary><strong>공지게시판 테이블</strong></summary>
-    ```
+  
+  ```
      CREATE TABLE IF NOT EXISTS notice
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '공지 ID',
@@ -345,9 +367,11 @@ COMMENT = '회원 로그인 이력';
 COMMENT = '공지게시판';
 ```
   </details> 
+  
 <details>
   <summary><strong>댓글 테이블</strong></summary>
-    ```
+  
+  ```
      CREATE TABLE IF NOT EXISTS comment
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '댓글 ID',
@@ -366,9 +390,11 @@ COMMENT = '공지게시판';
 COMMENT = '댓글';
 ```
   </details> 
+  
 <details>
   <summary><strong>신고 테이블</strong></summary>
-    ```
+  
+  ```
      CREATE TABLE IF NOT EXISTS report
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '신고 ID',
@@ -392,9 +418,11 @@ COMMENT = '댓글';
 COMMENT = '신고';
 ```
   </details> 
+  
 <details>
   <summary><strong>통계 테이블</strong></summary>
-    ```
+  
+  ```
      CREATE TABLE IF NOT EXISTS statistics
 (
     no DATETIME NOT NULL COMMENT '통계',
@@ -406,9 +434,11 @@ COMMENT = '신고';
 COMMENT = '통계';
 ```
   </details> 
+  
 <details>
   <summary><strong>북마크 테이블</strong></summary>
-    ```
+  
+  ```
      CREATE TABLE IF NOT EXISTS bookmark
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '북마크 ID',
@@ -425,9 +455,11 @@ COMMENT = '통계';
 comment = '북마크';
 ```
   </details> 
+  
 <details>
   <summary><strong>파일 테이블</strong></summary>
-    ```
+  
+  ```
     CREATE TABLE IF NOT EXISTS file
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '파일 ID',
@@ -454,9 +486,11 @@ comment = '북마크';
 comment = '파일';
 ```
   </details> 
+  
 <details>
   <summary><strong>시간당 방문자 테이블</strong></summary>
-    ```
+  
+  ```
      CREATE TABLE member_login_per_hour
 (
     NO DATETIME NOT NULL 
