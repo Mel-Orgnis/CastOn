@@ -906,12 +906,40 @@ master IP로 slave 연동 <br></br> <br></br>
 
   ## :whale: **JOIN**
 
+  <details>
+  <summary> 1번 실이 존재하는 모든 게시글 / 1번 게시글의 모든 실 추출 </summary>
+      <p align="center">
+        <img src="gif/join/join 구문.gif">
+      </p>
+  </details> 
+  
+ <details>
+  <summary>신고당한 게시글 확인</summary>
+    <p align="center">
+      <img src="gif/join/join 구문2.gif">
+    </p>
+  </details> 
+  
 
   ## :whale: **VIEW**
+  <details>
+  <summary> 도안공유 게시판 난이도 자동 설정 </summary>
+
+  <p align="center">
+    <img src="gif/view/view_1.gif">
+  </p>
+  </details> 
 
   ## :whale: **INDEX**
 
   ## :whale: **EVENT**
+  <details>
+  <summary> 휴면회원 전환  </summary>
+
+  <p align="center">
+    <img src="gif/이벤트/event_1.gif">
+  </p>
+  </details> 
 
 # :star2: 코드 시연
 
