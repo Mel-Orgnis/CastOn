@@ -533,6 +533,13 @@ master IP로 slave 연동 <br></br> <br></br>
       <img src="사진/연동/연동5.gif">
 </p><br></br>
 
+
+# :star2: 테스트케이스
+
+
+# :star2: 코드 시연
+
+
 # :star2: 테스트케이스
 ## :whale: **Query**
 <details>
@@ -1278,33 +1285,36 @@ master IP로 slave 연동 <br></br> <br></br>
 
   ## :whale: **제약조건**
 
+<details>
+  <summary> DATA TYPE </summary>
   <details>
-  <summary> DATA TYPE INTEGER </summary>
+  <summary> INTEGER </summary>
       <p align="center">
         <img src="gif/제약조건/dtype_member_integer.gif">
       </p>
   </details> 
   
  <details>
-  <summary> DATA TYPE DATETIME </summary>
+  <summary> DATETIME </summary>
     <p align="center">
       <img src="gif/제약조건/dtype_question_boare_datetime.gif">
     </p>
   </details> 
 
  <details>
-  <summary> DATA TYPE VARCHAR </summary>
+  <summary> VARCHAR </summary>
     <p align="center">
       <img src="gif/제약조건/dtype_question_board_varchar(255).gif">
     </p>
  </details> 
 
  <details>
-  <summary> DATA TYPE CHAR </summary>
+  <summary> CHAR </summary>
     <p align="center">
       <img src="gif/제약조건/dtype_report_char(4).gif">
     </p>
  </details> 
+</details>
 
  <details>
   <summary> NOT NULL </summary>
@@ -1319,7 +1329,5 @@ master IP로 slave 연동 <br></br> <br></br>
       <img src="gif/제약조건/체크1_member_gender.gif">
     </p>
  </details> 
-
-# :star2: 코드 시연
 
 # :star2: 논의사항 및 규칙
