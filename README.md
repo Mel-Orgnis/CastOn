@@ -2,7 +2,7 @@
 # :star2: 프로젝트 개요
 
 ## :busts_in_silhouette: 팀원 소개
-| | | | | <img src="https://github.com/Mel-Orgnis/CastOn/assets/139112248/6b6adc68-0f12-468b-8742-604115c9233a" width="200"> | |
+|<img src="사진/기우석.png" width="200" height = "220"> |<img src="사진/김동혁.jpg" width="200" height = "220"> | <img src="사진/백경석.jpg" width="200" height = "220">|<img src="사진/유혜진.jpg" width="200" height = "220"> | <img src="https://github.com/Mel-Orgnis/CastOn/assets/139112248/6b6adc68-0f12-468b-8742-604115c9233a" width="200" height = "220"> | <img src="사진/이우진.jpg" width="200" height = "220">|
 | :------------------------------------: | :-------------------------------------: | :-----------------------------------: | :--------------------------------------: | :-----------------------------------: | :------------------------------------------: |
 | [기우석](https://github.com/woosuk1) | [김동혁](https://github.com/dongkh9) | [백경석](https://github.com/Hellin22) | [유혜진](https://github.com/yuhyejin) | [이서현](https://github.com/sh694090) | [이우진](https://github.com/Vorschlag-bit) |
 
@@ -433,42 +433,47 @@ SHOW TABLES;
 # :star2: 테스트케이스
 <details>
 <summary>공지사항 게시판</summary>
-  <div markdown = '1'>
-<ul>
+  
+    <details>
+    <summary> <blockquote> 공지사항 게시글 작성</blockquote></summary>
+    <p align="center">
+      <img src="gif/공지사항/공지사항작성.gif">
+    </p>
+    </details>
+
   <li>공지사항 게시글 작성</li>
   <p aling="center">
-    <img src="gif_d/공지사항/공지사항작성.gif">
+    <img src="gif/공지사항/공지사항작성.gif">
     </p>
   <li>공지사항 게시글 조회</li>
   <p aling="center">
-    <img src="gif_d/공지사항/공지사항조회.gif">
+    <img src="gif/공지사항/공지사항조회.gif">
     </p>
   <li>공지사항 게시글 수정</li>
   <p aling="center">
-    <img src="gif_d/공지사항/공지사항수정.gif">
+    <img src="gif/공지사항/공지사항수정.gif">
     </p>  
   <li>공지사항 게시글 댓글 작성 여부 선택</li>
   <p aling="center">
-    <img src="gif_d/공지사항/공지게시글댓글체크.gif">
+    <img src="gif/공지사항/공지게시글댓글체크.gif">
     </p>  
   <li>공지사항 게시글 댓글 작성</li>
   <p aling="center">
-    <img src="gif_d/공지사항/공지사항댓글작성.gif">
+    <img src="gif/공지사항/공지사항댓글작성.gif">
     </p>
   <li>공지사항 게시글 댓글 수정</li>
   <p aling="center">
-    <img src="gif_d/공지사항/공지사항댓글수정.gif">
+    <img src="gif/공지사항/공지사항댓글수정.gif">
     </p>
   <li>공지사항 게시글 댓글 삭제</li>
   <p aling="center">
-    <img src="gif_d/공지사항/공지사항댓글삭제.gif">
+    <img src="gif/공지사항/공지사항댓글삭제.gif">
     </p>
   <li>공지사항 게시글 좋아요</li>
   <p aling="center">
-    <img src="gif_d/공지사항/공지사항좋아요.gif">
+    <img src="gif/공지사항/공지사항좋아요.gif">
     </p>
-</ul>
-</div>
+
 </details>  
 
 <details>
@@ -477,39 +482,68 @@ SHOW TABLES;
 <ul>
   <li>재료나눔 게시글 조회</li>
   <p aling="center">
-    <img src="gif_d/재료나눔/나눔게시글조회.gif">
+    <img src="gif/재료나눔/나눔게시글조회.gif">
     </p>
   <li>재료나눔 게시글 작성</li>
   <p aling="center">
-    <img src="gif_d/재료나눔/나눔게시글작성.gif">
+    <img src="gif/재료나눔/나눔게시글작성.gif">
     </p>
   <li>재료나눔 게시글 수정</li>
   <p aling="center">
-    <img src="gif_d/재료나눔/나눔게시글수정.gif">
+    <img src="gif/재료나눔/나눔게시글수정.gif">
     </p>
   <li>재료나눔 게시글 삭제</li>
   <p aling="center">
-    <img src="gif_d/재료나눔/나눔게시글삭제.gif">
+    <img src="gif/재료나눔/나눔게시글삭제.gif">
     </p>
   <li>재료나눔 게시글 검색 - 제목</li>
   <p aling="center">
-    <img src="gif_d/재료나눔/나눔게시글제목검색.gif">
+    <img src="gif/재료나눔/나눔게시글제목검색.gif">
     </p>
   <li>재료나눔 게시글 검색 - 작성자</li>
   <p aling="center">
-    <img src="gif_d/재료나눔/나눔게시글작성자검색.gif">
+    <img src="gif/재료나눔/나눔게시글작성자검색.gif">
     </p>
   <li>재료나눔 게시글 검색 - 내용</li>
   <p aling="center">
-    <img src="gif_d/재료나눔/나눔게시글내용검색.gif">
+    <img src="gif/재료나눔/나눔게시글내용검색.gif">
     </p>
   <li>재료나눔 게시글 검색 - 재료 카테고리</li>
   <p aling="center">
-    <img src="gif_d/재료나눔/나눔게시글나눔카테검색.gif">
+    <img src="gif/재료나눔/나눔게시글나눔카테검색.gif">
     </p>
 </ul>
 </div>
 </details>  
+
+<details>
+<summary>트리거</summary>
+  <div markdown = '1'>
+<ul>
+  <li>트리거 1) 회원 로그인이력 발생 시 통계 집계 </li>
+  <p aling="center">
+    <img src="gif/트리거/트리거1번2번.gif">
+    </p>
+  <li>트리거 2) 도안 공유 게시판 게시글 작성 시 통계 집계</li>
+  <p aling="center">
+    <img src="gif/트리거/트리거3번.gif">
+    </p>
+  <li>트리거 3) 도안 공유 게시판 게시글 작성 시 통계 집계</li>
+  <p aling="center">
+    <img src="gif/트리거/트리거3번.gif">
+    </p>
+  <li>트리거 4) 재료 나눔 게시글 작성 시 통계 집계</li>
+  <p aling="center">
+    <img src="gif/트리거/트리거4번.gif">
+    </p>
+  <li>트리거 5) 행사 참여 최대 인원이 넘을 시 알림 발생</li>
+  <p aling="center">
+    <img src="gif/트리거/트리거5번.gif">
+    </p>
+</ul>
+</div>
+</details> 
+
 # :star2: 코드 시연
 
 # :star2: 논의사항 및 규칙
