@@ -87,6 +87,9 @@
 </details> 
 
 <details>
+  <summary><strong>테이블 생성</strong></summary>
+
+<details>
   <summary><strong>실 테이블</strong></summary>
   
   ```
@@ -500,6 +503,7 @@ comment = '파일';
 comment = '시간당 방문자';
 ```
   </details> 
+  </details>
 
 # :star2: 리눅스 서버 구축
 ### Replication
