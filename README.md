@@ -64,14 +64,15 @@
 # :star2: DB 모델링
 
 ## :one: 개념 모델링
-
-
+<img src = "사진/caston개념모델.png">
 ### 고려 사항
 
 ## :two: 논리 모델링
+<img src = "사진/caston논리모델.png">
 ### 고려 사항
 
 ## :three: 물리 모델링
+<img src = "사진/caston물리모델.png">
 ### 고려 사항
 
 # :star2: DDL
