@@ -879,7 +879,7 @@ SHOW TABLES;
   <summary> 휴면회원 전환  </summary>
   
   <p align="center">
-    <img src="gif/이벤트/event_1gif">
+    <img src="gif/이벤트/event_1.gif">
   </p>
   </details> 
 </details>
