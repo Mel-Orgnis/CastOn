@@ -539,7 +539,9 @@ SHOW TABLES;
     </p>
   </details> 
   </details>
-  
+
+<br></br>
+
 <details>
 <summary>공지사항 게시판</summary>
 
@@ -653,6 +655,8 @@ SHOW TABLES;
   </p>
   </details> 
   <details>
+
+  <br></br>
   <summary>재료나눔 게시글 작성</summary>
     <p align="center">
       <img src="gif/재료나눔/나눔게시글작성.gif">
@@ -696,6 +700,7 @@ SHOW TABLES;
   </details> 
   </details>
 
+  <br></br>
   <details>
 <summary>견적 게시판</summary>
 
@@ -756,6 +761,7 @@ SHOW TABLES;
   </details> 
   </details>
 
+<br></br>
   <details>
 <summary>행사 게시판</summary>
 
@@ -837,6 +843,7 @@ SHOW TABLES;
   </details> 
   </details>
 
+<br></br>
 <details>
 <summary>트리거</summary>
   <div markdown = '1'>
