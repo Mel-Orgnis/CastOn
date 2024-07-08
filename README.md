@@ -2,7 +2,7 @@
 # :star2: 프로젝트 개요
 
 ## :busts_in_silhouette: 팀원 소개
-|<img src="사진/기우석.png" width="200" height = "220"> |<img src="사진/김동혁.jpg" width="200" height = "220"> | <img src="사진/백경석.jpg" width="200" height = "220">|<img src="사진/유혜진.jpg" width="200" height = "220"> | <img src="사진/이서현.jpg" width="200" height = "220"> | <img src="사진/이우진.jpg" width="200" height = "220">|
+|<img src="사진/기우석.png" width="200" height = "160"> |<img src="사진/김동혁.jpg" width="200" height = "160"> | <img src="사진/백경석.jpg" width="200" height = "160">|<img src="사진/유혜진.jpg" width="200" height = "160"> | <img src="사진/이서현.jpg" width="200" height = "160"> | <img src="사진/이우진.jpg" width="200" height = "160">|
 | :------------------------------------: | :-------------------------------------: | :-----------------------------------: | :--------------------------------------: | :-----------------------------------: | :------------------------------------------: |
 | [기우석](https://github.com/woosuk1) | [김동혁](https://github.com/dongkh9) | [백경석](https://github.com/Hellin22) | [유혜진](https://github.com/yuhyejin) | [이서현](https://github.com/sh694090) | [이우진](https://github.com/Vorschlag-bit) |
 
@@ -64,15 +64,15 @@
 # :star2: DB 모델링
 
 ## :one: 개념 모델링
-<img src = "사진/caston개념모델.png">
+<img src = "사진/caston개념모델.png"><br>
 ### 고려 사항
 
 ## :two: 논리 모델링
-<img src = "사진/caston논리모델.png">
+<img src = "사진/caston논리모델.png"><br>
 ### 고려 사항
 
 ## :three: 물리 모델링
-<img src = "사진/caston물리모델.png">
+<img src = "사진/caston물리모델.png"><br>
 ### 고려 사항
 
 # :star2: DDL
@@ -439,7 +439,7 @@ SHOW TABLES;
 
 **마스터-슬레이브(Master-Slave) 레플리케이션은** 하나의 마스터 서버가 모든 쓰기 작업(INSERT, UPDATE, DELETE 등)을 처리하고, 하나 이상의 슬레이브 서버가 마스터의 변경 사항을 복제하여 읽기 작업(SELECT)을 처리합니다.
 
-- <span style="font-size:150%">master - slave 연동</span>
+- master - slave 연동
 <p align="center">
       <img src="사진/연동/연동1.png">
 </p>
@@ -931,6 +931,16 @@ master IP로 slave 연동 <br></br> <br></br>
   </details> 
 
   ## :whale: **INDEX**
+  <details>
+  <summary> 게시판 Index  </summary>
+  - `mem_no` 인덱스는 특정 회원이 작성한 게시글을 조회<br>
+  - `ate` 인덱스는 특정 카테고리의 게시글을 필터링<br>
+  - `eg_date` 인덱스는 게시글 등록 날짜를 기준으로 최신 게시글이나 특정 기간의 게시글을 빠르게 찾을 때<br>
+
+  <p align="center">
+    <img src="gif/인덱스/index.gif">
+  </p>
+  </details> 
 
   ## :whale: **EVENT**
   <details>
