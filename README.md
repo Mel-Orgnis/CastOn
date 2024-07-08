@@ -2,7 +2,7 @@
 # :star2: 프로젝트 개요
 
 ## :busts_in_silhouette: 팀원 소개
-| | | | | <img src="https://github.com/Mel-Orgnis/CastOn/assets/139112248/6b6adc68-0f12-468b-8742-604115c9233a" width="200"> | |
+|<img src="사진/기우석.png" width="200" height = "220"> |<img src="사진/김동혁.jpg" width="200" height = "220"> | <img src="사진/백경석.jpg" width="200" height = "220">|<img src="사진/유혜진.jpg" width="200" height = "220"> | <img src="사진/이서현.jpg" width="200" height = "220"> | <img src="사진/이우진.jpg" width="200" height = "220">|
 | :------------------------------------: | :-------------------------------------: | :-----------------------------------: | :--------------------------------------: | :-----------------------------------: | :------------------------------------------: |
 | [기우석](https://github.com/woosuk1) | [김동혁](https://github.com/dongkh9) | [백경석](https://github.com/Hellin22) | [유혜진](https://github.com/yuhyejin) | [이서현](https://github.com/sh694090) | [이우진](https://github.com/Vorschlag-bit) |
 
@@ -64,14 +64,15 @@
 # :star2: DB 모델링
 
 ## :one: 개념 모델링
-
-
+<img src = "사진/caston개념모델.png">
 ### 고려 사항
 
 ## :two: 논리 모델링
+<img src = "사진/caston논리모델.png">
 ### 고려 사항
 
 ## :three: 물리 모델링
+<img src = "사진/caston물리모델.png">
 ### 고려 사항
 
 # :star2: DDL
@@ -431,6 +432,438 @@ SHOW TABLES;
 </details>
 
 # :star2: 테스트케이스
+<details>
+<summary>회원</summary>
+
+  <details>
+  <summary>회원가입</summary>
+  
+  <p align="center">
+    <img src="gif/회원/mem_1.gif">
+  </p>
+  </details> 
+ <details>
+  <summary>로그인</summary>
+    <p align="center">
+      <img src="gif/회원/mem_2.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>회원탈퇴</summary>
+    <p align="center">
+      <img src="gif/회원/mem_3.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>회원정보 수정</summary>
+    <p align="center">
+      <img src="gif/회원/mem_4.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>회원등급 변경</summary>
+    <p align="center">
+      <img src="gif/회원/mem_5.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>회원ID 검색</summary>
+    <p align="center">
+      <img src="gif/회원/mem_6.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>회원 닉네임 검색</summary>
+    <p align="center">
+      <img src="gif/회원/mem_7.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>비밀번호 찾기</summary>
+    <p align="center">
+      <img src="gif/회원/mem_8.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>회원 참여 행사 확인</summary>
+    <p align="center">
+      <img src="gif/회원/mem_9.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>회원 블랙리스트 설정</summary>
+    <p align="center">
+      <img src="gif/회원/mem_10.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>신고 내역 확인</summary>
+    <p align="center">
+      <img src="gif/회원/mem_11.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>문의 내역 확인</summary>
+    <p align="center">
+      <img src="gif/회원/mem_12.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>타인 프로필 조회</summary>
+    <p align="center">
+      <img src="gif/회원/mem_13.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>ID 찾기</summary>
+    <p align="center">
+      <img src="gif/회원/mem_14.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>로그인 IP 확인</summary>
+    <p align="center">
+      <img src="gif/회원/mem_15.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>휴면계정 관리</summary>
+    <p align="center">
+      <img src="gif/회원/mem_16.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>회원 이력 조회</summary>
+    <p align="center">
+      <img src="gif/회원/mem_17.gif">
+    </p>
+  </details> 
+  </details>
+  
+<details>
+<summary>공지사항 게시판</summary>
+
+  <details>
+  <summary>공지사항 게시글 작성</summary>
+  
+  <p align="center">
+    <img src="gif/공지사항/공지사항작성.gif">
+  </p>
+  </details> 
+ <details>
+  <summary>공지사항 게시글 조회</summary>
+    <p align="center">
+      <img src="gif/공지사항/공지사항조회.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>공지사항 게시글 수정</summary>
+    <p align="center">
+      <img src="gif/공지사항/공지사항수정gif">
+    </p>
+  </details> 
+  <details>
+  <summary>공지사항 게시글 댓글 작성 여부 선택</summary>
+    <p align="center">
+      <img src="gif/공지사항/공지게시글댓글체크.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>공지사항 게시글 댓글 작성</summary>
+    <p align="center">
+      <img src="gif/공지사항/공지사항댓글작성.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>공지사항 게시글 댓글 수정</summary>
+    <p align="center">
+      <img src="gif/공지사항/공지사항댓글수정.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>공지사항 게시글 댓글 삭제</summary>
+    <p align="center">
+      <img src="gif/공지사항/공지사항댓글삭제.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>공지사항 게시글 좋아요</summary>
+    <p align="center">
+      <img src="gif/공지사항/공지사항좋아요.gif">
+    </p>
+  </details> 
+  </details>
+
+<details>
+<summary>문의 게시판</summary>
+
+  <details>
+  <summary>문의사항 게시글 조회</summary>
+  
+  <p align="center">
+    <img src="gif/문의/문의조회.gif">
+  </p>
+  </details> 
+  <details>
+  <summary>문의사항 게시글 목록 조회</summary>
+    <p align="center">
+      <img src="gif/문의/문의목록조회.gif">
+    </p>
+  </details> 
+ <details>
+  <summary>문의사항 작성</summary>
+    <p align="center">
+      <img src="gif/문의/문의작성.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>문의사항 수정</summary>
+    <p align="center">
+      <img src="gif/문의/문의수정.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>문의사항 삭제</summary>
+    <p align="center">
+      <img src="gif/문의/문의삭제.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>문의사항 답변 / 문의사항 상태처리</summary>
+    <p align="center">
+      <img src="gif/문의/문의답변작성.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>문의사항 답변삭제</summary>
+    <p align="center">
+      <img src="gif/문의/문의답변삭제.gif">
+    </p>
+  </details> 
+  </details>
+
+  <details>
+<summary>재료나눔 게시판</summary>
+
+  <details>
+  <summary>재료나눔 게시글 조회</summary>
+  
+  <p align="center">
+    <img src="gif/재료나눔/나눔게시글조회.gif">
+  </p>
+  </details> 
+  <details>
+  <summary>재료나눔 게시글 작성</summary>
+    <p align="center">
+      <img src="gif/재료나눔/나눔게시글작성.gif">
+    </p>
+  </details> 
+ <details>
+  <summary>재료나눔 게시글 수정</summary>
+    <p align="center">
+      <img src="gif/재료나눔/나눔게시글수정.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>재료나눔 게시글 삭제</summary>
+    <p align="center">
+      <img src="gif/재료나눔/나눔게시글삭제.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>재료나눔 게시글 검색 - 제목</summary>
+    <p align="center">
+      <img src="gif/재료나눔/나눔게시글제목검색.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>재료나눔 게시글 검색 - 작성자</summary>
+    <p align="center">
+      <img src="gif/재료나눔/나눔게시글작성자검색.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>재료나눔 게시글 검색 - 내용</summary>
+    <p align="center">
+      <img src="gif/재료나눔/나눔게시글내용검색.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>재료나눔 게시글 검색 - 재료 카테고리</summary>
+    <p align="center">
+      <img src="gif/재료나눔/나눔게시글나눔카테검색.gif">
+    </p>
+  </details> 
+  </details>
+
+  <details>
+<summary>견적 게시판</summary>
+
+  <details>
+  <summary>견적검색</summary>
+  
+  <p align="center">
+    <img src="gif/견적/견적검색.gif">
+  </p>
+  </details> 
+ <details>
+  <summary>견적댓글삭제</summary>
+    <p align="center">
+      <img src="gif/견적/견적댓글삭제.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>견적댓글수정</summary>
+    <p align="center">
+      <img src="gif/견적/견적댓글수정.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>견적목록조회</summary>
+    <p align="center">
+      <img src="gif/견적/견적목록조회.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>견적북마크</summary>
+    <p align="center">
+      <img src="gif/견적/견적북마크.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>견적북마크삭제</summary>
+    <p align="center">
+      <img src="gif/견적/견적북마크삭제.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>견적수정</summary>
+    <p align="center">
+      <img src="gif/견적/견적수정.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>견적작성</summary>
+    <p align="center">
+      <img src="gif/견적/견적작성.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>견적좋아요</summary>
+    <p align="center">
+      <img src="gif/견적/견적좋아요.gif">
+    </p>
+  </details> 
+  </details>
+
+  <details>
+<summary>행사 게시판</summary>
+
+  <details>
+  <summary>행사 게시글 댓글 삭제</summary>
+  
+  <p align="center">
+    <img src="gif/행사게시글/행사 게시글 댓글 삭제.gif">
+  </p>
+  </details> 
+ <details>
+  <summary>행사 게시글 댓글 수정</summary>
+    <p align="center">
+      <img src="gif/행사게시글/행사 게시글 댓글 수정.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>행사 게시글 댓글 작성</summary>
+    <p align="center">
+      <img src="gif/행사게시글/행사 게시글 댓글 작성.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>행사 게시글 북마크 등록</summary>
+    <p align="center">
+      <img src="gif/행사게시글/행사 게시글 북마크 등록.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>행사 게시글 삭제</summary>
+    <p align="center">
+      <img src="gif/행사게시글/행사 게시글 삭제.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>행사 게시글 수정</summary>
+    <p align="center">
+      <img src="gif/행사게시글/행사 게시글 수정.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>행사 게시글 작성</summary>
+    <p align="center">
+      <img src="gif/행사게시글/행사 게시글 작성.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>행사 게시글 좋아요</summary>
+    <p align="center">
+      <img src="gif/행사게시글/행사 게시글 좋아요.gif">
+    </p>
+  </details> 
+  <details>
+  <summary>행사 게시판 검색</summary>
+    <p align="center">
+      <img src="gif/행사게시글/행사 게시판 검색.gif">
+    </p>
+  </details> 
+  
+  <details>
+  <summary>행사 참여 신청</summary>
+    <p align="center">
+      <img src="gif/행사게시글/행사 참여 신청.gif">
+    </p>
+  </details> 
+  
+  <details>
+  <summary>행사게시판 행사 게시글 목록</summary>
+    <p align="center">
+      <img src="gif/행사게시글/행사게시판 행사 게시글 목록.gif">
+    </p>
+  </details> 
+  
+  <details>
+  <summary>행사게시판 행사 게시글 조회</summary>
+    <p align="center">
+      <img src="gif/행사게시글/행사게시판 행사 게시글 조회.gif">
+    </p>
+  </details> 
+  </details>
+
+<details>
+<summary>트리거</summary>
+  <div markdown = '1'>
+<ul>
+  <li>트리거 1) 회원 로그인이력 발생 시 통계 집계 </li>
+  <p aling="center">
+    <img src="gif/트리거/트리거1번2번.gif">
+    </p>
+  <li>트리거 2) 도안 공유 게시판 게시글 작성 시 통계 집계</li>
+  <p aling="center">
+    <img src="gif/트리거/트리거3번.gif">
+    </p>
+  <li>트리거 3) 도안 공유 게시판 게시글 작성 시 통계 집계</li>
+  <p aling="center">
+    <img src="gif/트리거/트리거3번.gif">
+    </p>
+  <li>트리거 4) 재료 나눔 게시글 작성 시 통계 집계</li>
+  <p aling="center">
+    <img src="gif/트리거/트리거4번.gif">
+    </p>
+  <li>트리거 5) 행사 참여 최대 인원이 넘을 시 알림 발생</li>
+  <p aling="center">
+    <img src="gif/트리거/트리거5번.gif">
+    </p>
+</ul>
+</div>
+</details> 
 
 # :star2: 코드 시연
 
