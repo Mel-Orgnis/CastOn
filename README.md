@@ -433,18 +433,13 @@ SHOW TABLES;
 # :star2: 테스트케이스
 <details>
 <summary>공지사항 게시판</summary>
-  
     <details>
-    <summary> <blockquote> 공지사항 게시글 작성</blockquote></summary>
+    <summary>  공지사항 게시글 작성</summary>
     <p align="center">
       <img src="gif/공지사항/공지사항작성.gif">
     </p>
     </details>
-
-  <li>공지사항 게시글 작성</li>
-  <p aling="center">
-    <img src="gif/공지사항/공지사항작성.gif">
-    </p>
+  
   <li>공지사항 게시글 조회</li>
   <p aling="center">
     <img src="gif/공지사항/공지사항조회.gif">
