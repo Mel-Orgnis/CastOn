@@ -437,35 +437,35 @@ SHOW TABLES;
 <ul>
   <li>공지사항 게시글 작성</li>
   <p aling="center">
-    <img src="gif_d/공지사항/공지사항작성.gif">
+    <img src="gif/공지사항/공지사항작성.gif">
     </p>
   <li>공지사항 게시글 조회</li>
   <p aling="center">
-    <img src="gif_d/공지사항/공지사항조회.gif">
+    <img src="gif/공지사항/공지사항조회.gif">
     </p>
   <li>공지사항 게시글 수정</li>
   <p aling="center">
-    <img src="gif_d/공지사항/공지사항수정.gif">
+    <img src="gif/공지사항/공지사항수정.gif">
     </p>  
   <li>공지사항 게시글 댓글 작성 여부 선택</li>
   <p aling="center">
-    <img src="gif_d/공지사항/공지게시글댓글체크.gif">
+    <img src="gif/공지사항/공지게시글댓글체크.gif">
     </p>  
   <li>공지사항 게시글 댓글 작성</li>
   <p aling="center">
-    <img src="gif_d/공지사항/공지사항댓글작성.gif">
+    <img src="gif/공지사항/공지사항댓글작성.gif">
     </p>
   <li>공지사항 게시글 댓글 수정</li>
   <p aling="center">
-    <img src="gif_d/공지사항/공지사항댓글수정.gif">
+    <img src="gif/공지사항/공지사항댓글수정.gif">
     </p>
   <li>공지사항 게시글 댓글 삭제</li>
   <p aling="center">
-    <img src="gif_d/공지사항/공지사항댓글삭제.gif">
+    <img src="gif/공지사항/공지사항댓글삭제.gif">
     </p>
   <li>공지사항 게시글 좋아요</li>
   <p aling="center">
-    <img src="gif_d/공지사항/공지사항좋아요.gif">
+    <img src="gif/공지사항/공지사항좋아요.gif">
     </p>
 </ul>
 </div>
@@ -477,35 +477,35 @@ SHOW TABLES;
 <ul>
   <li>재료나눔 게시글 조회</li>
   <p aling="center">
-    <img src="gif_d/재료나눔/나눔게시글조회.gif">
+    <img src="gif/재료나눔/나눔게시글조회.gif">
     </p>
   <li>재료나눔 게시글 작성</li>
   <p aling="center">
-    <img src="gif_d/재료나눔/나눔게시글작성.gif">
+    <img src="gif/재료나눔/나눔게시글작성.gif">
     </p>
   <li>재료나눔 게시글 수정</li>
   <p aling="center">
-    <img src="gif_d/재료나눔/나눔게시글수정.gif">
+    <img src="gif/재료나눔/나눔게시글수정.gif">
     </p>
   <li>재료나눔 게시글 삭제</li>
   <p aling="center">
-    <img src="gif_d/재료나눔/나눔게시글삭제.gif">
+    <img src="gif/재료나눔/나눔게시글삭제.gif">
     </p>
   <li>재료나눔 게시글 검색 - 제목</li>
   <p aling="center">
-    <img src="gif_d/재료나눔/나눔게시글제목검색.gif">
+    <img src="gif/재료나눔/나눔게시글제목검색.gif">
     </p>
   <li>재료나눔 게시글 검색 - 작성자</li>
   <p aling="center">
-    <img src="gif_d/재료나눔/나눔게시글작성자검색.gif">
+    <img src="gif/재료나눔/나눔게시글작성자검색.gif">
     </p>
   <li>재료나눔 게시글 검색 - 내용</li>
   <p aling="center">
-    <img src="gif_d/재료나눔/나눔게시글내용검색.gif">
+    <img src="gif/재료나눔/나눔게시글내용검색.gif">
     </p>
   <li>재료나눔 게시글 검색 - 재료 카테고리</li>
   <p aling="center">
-    <img src="gif_d/재료나눔/나눔게시글나눔카테검색.gif">
+    <img src="gif/재료나눔/나눔게시글나눔카테검색.gif">
     </p>
 </ul>
 </div>
