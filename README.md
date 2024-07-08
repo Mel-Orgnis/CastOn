@@ -439,115 +439,134 @@ SHOW TABLES;
 
 **마스터-슬레이브(Master-Slave) 레플리케이션은** 하나의 마스터 서버가 모든 쓰기 작업(INSERT, UPDATE, DELETE 등)을 처리하고, 하나 이상의 슬레이브 서버가 마스터의 변경 사항을 복제하여 읽기 작업(SELECT)을 처리합니다.
 
-- master - slave 연동
+- <span style="font-size:150%">master - slave 연동</span>
 <p align="center">
       <img src="사진/연동/연동1.png">
 </p>
+master IP로 slave 연동 <br></br> <br></br>
+
+- **heidiSQL에 리눅스 master, slave 서버 연동**
+<p align="center">
+      <img src="사진/연동/연동2.png">
+</p>    <br></br>
+
+- #### **master에서 create 하면 slave에서 동기화**
+<p align="center">
+      <img src="사진/연동/연동3.gif">
+</p>    <br></br>
+
+- **slave에서는 select만 가능**
+<p align="center">
+      <img src="사진/연동/연동4.png">
+</p>
+<p align="center">
+      <img src="사진/연동/연동5.gif">
+</p><br></br>
 
 # :star2: 테스트케이스
 ## :whale: **Query**
 <details>
-<summary>회원</summary>
+<summary><strong>회원</strong></summary>  <br>
 
   <details>
-  <summary>회원가입</summary>
+  <summary><strong>회원가입</strong></summary>
   
   <p align="center">
     <img src="gif/회원/mem_1.gif">
   </p>
   </details> 
  <details>
-  <summary>로그인</summary>
+  <summary><strong>로그인</strong></summary>
     <p align="center">
       <img src="gif/회원/mem_2.gif">
     </p>
   </details> 
   <details>
-  <summary>회원탈퇴</summary>
+  <summary><strong>회원탈퇴</strong></summary>
     <p align="center">
       <img src="gif/회원/mem_3.gif">
     </p>
   </details> 
   <details>
-  <summary>회원정보 수정</summary>
+  <summary><strong>회원정보 수정</strong></summary>
     <p align="center">
       <img src="gif/회원/mem_4.gif">
     </p>
   </details> 
   <details>
-  <summary>회원등급 변경</summary>
+  <summary><strong>회원등급 변경</strong></summary>
     <p align="center">
       <img src="gif/회원/mem_5.gif">
     </p>
   </details> 
   <details>
-  <summary>회원ID 검색</summary>
+  <summary><strong>회원ID 검색</strong></summary>
     <p align="center">
       <img src="gif/회원/mem_6.gif">
     </p>
   </details> 
   <details>
-  <summary>회원 닉네임 검색</summary>
+  <summary><strong>회원 닉네임 검색</strong></summary>
     <p align="center">
       <img src="gif/회원/mem_7.gif">
     </p>
   </details> 
   <details>
-  <summary>비밀번호 찾기</summary>
+  <summary><strong>비밀번호 찾기</strong></summary>
     <p align="center">
       <img src="gif/회원/mem_8.gif">
     </p>
   </details> 
   <details>
-  <summary>회원 참여 행사 확인</summary>
+  <summary><strong>회원 참여 행사 확인</strong></summary>
     <p align="center">
       <img src="gif/회원/mem_9.gif">
     </p>
   </details> 
   <details>
-  <summary>회원 블랙리스트 설정</summary>
+  <summary><strong>회원 블랙리스트 설정</strong></summary>
     <p align="center">
       <img src="gif/회원/mem_10.gif">
     </p>
   </details> 
   <details>
-  <summary>신고 내역 확인</summary>
+  <summary><strong>신고 내역 확인</strong></summary>
     <p align="center">
       <img src="gif/회원/mem_11.gif">
     </p>
   </details> 
   <details>
-  <summary>문의 내역 확인</summary>
+  <summary><strong>문의 내역 확인</strong></summary>
     <p align="center">
       <img src="gif/회원/mem_12.gif">
     </p>
   </details> 
   <details>
-  <summary>타인 프로필 조회</summary>
+  <summary><strong>타인 프로필 조회</strong></summary>
     <p align="center">
       <img src="gif/회원/mem_13.gif">
     </p>
   </details> 
   <details>
-  <summary>ID 찾기</summary>
+  <summary><strong>ID 찾기</strong></summary>
     <p align="center">
       <img src="gif/회원/mem_14.gif">
     </p>
   </details> 
   <details>
-  <summary>로그인 IP 확인</summary>
+  <summary><strong>로그인 IP 확인</strong></summary>
     <p align="center">
       <img src="gif/회원/mem_15.gif">
     </p>
   </details> 
   <details>
-  <summary>휴면계정 관리</summary>
+  <summary><strong>휴면계정 관리</strong></summary>
     <p align="center">
       <img src="gif/회원/mem_16.gif">
     </p>
   </details> 
   <details>
-  <summary>회원 이력 조회</summary>
+  <summary><strong>회원 이력 조회</strong></summary>
     <p align="center">
       <img src="gif/회원/mem_17.gif">
     </p>
@@ -555,53 +574,53 @@ SHOW TABLES;
   </details>
   
 <details>
-<summary>공지사항 게시판</summary>
+<summary><strong>공지사항 게시판</strong></summary>  
 
   <details>
-  <summary>공지사항 게시글 작성</summary>
+  <summary><strong>공지사항 게시글 작성</strong></summary>
   
   <p align="center">
     <img src="gif/공지사항/공지사항작성.gif">
   </p>
   </details> 
  <details>
-  <summary>공지사항 게시글 조회</summary>
+  <summary><strong>공지사항 게시글 조회</strong></summary>
     <p align="center">
       <img src="gif/공지사항/공지사항조회.gif">
     </p>
   </details> 
   <details>
-  <summary>공지사항 게시글 수정</summary>
+  <summary><strong>공지사항 게시글 수정</strong></summary>
     <p align="center">
       <img src="gif/공지사항/공지사항수정gif">
     </p>
   </details> 
   <details>
-  <summary>공지사항 게시글 댓글 작성 여부 선택</summary>
+  <summary><strong>공지사항 게시글 댓글 작성 여부 선택</strong></summary>
     <p align="center">
       <img src="gif/공지사항/공지게시글댓글체크.gif">
     </p>
   </details> 
   <details>
-  <summary>공지사항 게시글 댓글 작성</summary>
+  <summary><strong>공지사항 게시글 댓글 작성</strong></summary>
     <p align="center">
       <img src="gif/공지사항/공지사항댓글작성.gif">
     </p>
   </details> 
   <details>
-  <summary>공지사항 게시글 댓글 수정</summary>
+  <summary><strong>공지사항 게시글 댓글 수정</strong></summary>
     <p align="center">
       <img src="gif/공지사항/공지사항댓글수정.gif">
     </p>
   </details> 
   <details>
-  <summary>공지사항 게시글 댓글 삭제</summary>
+  <summary><strong>공지사항 게시글 댓글 삭제</strong></summary>
     <p align="center">
       <img src="gif/공지사항/공지사항댓글삭제.gif">
     </p>
   </details> 
   <details>
-  <summary>공지사항 게시글 좋아요</summary>
+  <summary><strong>공지사항 게시글 좋아요</strong></summary>
     <p align="center">
       <img src="gif/공지사항/공지사항좋아요.gif">
     </p>
@@ -609,47 +628,47 @@ SHOW TABLES;
   </details>
 
 <details>
-<summary>문의 게시판</summary>
+<summary><strong>문의 게시판</strong></summary>  
 
   <details>
-  <summary>문의사항 게시글 조회</summary>
+  <summary><strong>문의사항 게시글 조회</strong></summary>
   
   <p align="center">
     <img src="gif/문의/문의조회.gif">
   </p>
   </details> 
   <details>
-  <summary>문의사항 게시글 목록 조회</summary>
+  <summary><strong>문의사항 게시글 목록 조회</strong></summary>
     <p align="center">
       <img src="gif/문의/문의목록조회.gif">
     </p>
   </details> 
  <details>
-  <summary>문의사항 작성</summary>
+  <summary><strong>문의사항 작성</strong></summary>
     <p align="center">
       <img src="gif/문의/문의작성.gif">
     </p>
   </details> 
   <details>
-  <summary>문의사항 수정</summary>
+  <summary><strong>문의사항 수정</strong></summary>
     <p align="center">
       <img src="gif/문의/문의수정.gif">
     </p>
   </details> 
   <details>
-  <summary>문의사항 삭제</summary>
+  <summary><strong>문의사항 삭제</strong></summary>
     <p align="center">
       <img src="gif/문의/문의삭제.gif">
     </p>
   </details> 
   <details>
-  <summary>문의사항 답변 / 문의사항 상태처리</summary>
+  <summary><strong>문의사항 답변 / 문의사항 상태처리</strong></summary>
     <p align="center">
       <img src="gif/문의/문의답변작성.gif">
     </p>
   </details> 
   <details>
-  <summary>문의사항 답변삭제</summary>
+  <summary><strong>문의사항 답변삭제</strong></summary>
     <p align="center">
       <img src="gif/문의/문의답변삭제.gif">
     </p>
@@ -657,53 +676,53 @@ SHOW TABLES;
   </details>
 
   <details>
-<summary>재료나눔 게시판</summary>
+<summary><strong>재료나눔 게시판</strong></summary>  
 
   <details>
-  <summary>재료나눔 게시글 조회</summary>
+  <summary><strong>재료나눔 게시글 조회</strong></summary>
   
   <p align="center">
     <img src="gif/재료나눔/나눔게시글조회.gif">
   </p>
   </details> 
   <details>
-  <summary>재료나눔 게시글 작성</summary>
+  <summary><strong>재료나눔 게시글 작성</strong></summary>
     <p align="center">
       <img src="gif/재료나눔/나눔게시글작성.gif">
     </p>
   </details> 
  <details>
-  <summary>재료나눔 게시글 수정</summary>
+  <summary><strong>재료나눔 게시글 수정</strong></summary>
     <p align="center">
       <img src="gif/재료나눔/나눔게시글수정.gif">
     </p>
   </details> 
   <details>
-  <summary>재료나눔 게시글 삭제</summary>
+  <summary><strong>재료나눔 게시글 삭제</strong></summary>
     <p align="center">
       <img src="gif/재료나눔/나눔게시글삭제.gif">
     </p>
   </details> 
   <details>
-  <summary>재료나눔 게시글 검색 - 제목</summary>
+  <summary><strong>재료나눔 게시글 검색 - 제목</strong></summary>
     <p align="center">
       <img src="gif/재료나눔/나눔게시글제목검색.gif">
     </p>
   </details> 
   <details>
-  <summary>재료나눔 게시글 검색 - 작성자</summary>
+  <summary><strong>재료나눔 게시글 검색 - 작성자</strong></summary>
     <p align="center">
       <img src="gif/재료나눔/나눔게시글작성자검색.gif">
     </p>
   </details> 
   <details>
-  <summary>재료나눔 게시글 검색 - 내용</summary>
+  <summary><strong>재료나눔 게시글 검색 - 내용</strong></summary>
     <p align="center">
       <img src="gif/재료나눔/나눔게시글내용검색.gif">
     </p>
   </details> 
   <details>
-  <summary>재료나눔 게시글 검색 - 재료 카테고리</summary>
+  <summary><strong>재료나눔 게시글 검색 - 재료 카테고리</strong></summary>
     <p align="center">
       <img src="gif/재료나눔/나눔게시글나눔카테검색.gif">
     </p>
@@ -711,59 +730,59 @@ SHOW TABLES;
   </details>
 
   <details>
-<summary>견적 게시판</summary>
+<summary><strong>견적 게시판</strong></summary>  
 
   <details>
-  <summary>견적검색</summary>
+  <summary><strong>견적검색</strong></summary>
   
   <p align="center">
     <img src="gif/견적/견적검색.gif">
   </p>
   </details> 
  <details>
-  <summary>견적댓글삭제</summary>
+  <summary><strong>견적댓글삭제</strong></summary>
     <p align="center">
       <img src="gif/견적/견적댓글삭제.gif">
     </p>
   </details> 
   <details>
-  <summary>견적댓글수정</summary>
+  <summary><strong>견적댓글수정</strong></summary>
     <p align="center">
       <img src="gif/견적/견적댓글수정.gif">
     </p>
   </details> 
   <details>
-  <summary>견적목록조회</summary>
+  <summary><strong>견적목록조회</strong></summary>
     <p align="center">
       <img src="gif/견적/견적목록조회.gif">
     </p>
   </details> 
   <details>
-  <summary>견적북마크</summary>
+  <summary><strong>견적북마크</strong></summary>
     <p align="center">
       <img src="gif/견적/견적북마크.gif">
     </p>
   </details> 
   <details>
-  <summary>견적북마크삭제</summary>
+  <summary><strong>견적북마크삭제</strong></summary>
     <p align="center">
       <img src="gif/견적/견적북마크삭제.gif">
     </p>
   </details> 
   <details>
-  <summary>견적수정</summary>
+  <summary><strong>견적수정</strong></summary>
     <p align="center">
       <img src="gif/견적/견적수정.gif">
     </p>
   </details> 
   <details>
-  <summary>견적작성</summary>
+  <summary><strong>견적작성</strong></summary>
     <p align="center">
       <img src="gif/견적/견적작성.gif">
     </p>
   </details> 
   <details>
-  <summary>견적좋아요</summary>
+  <summary><strong>견적좋아요</strong></summary>
     <p align="center">
       <img src="gif/견적/견적좋아요.gif">
     </p>
@@ -771,80 +790,80 @@ SHOW TABLES;
   </details>
 
   <details>
-<summary>행사 게시판</summary>
+<summary><strong>행사 게시판</strong></summary>
 
   <details>
-  <summary>행사 게시글 댓글 삭제</summary>
+  <summary><strong>행사 게시글 댓글 삭제</summary></summary>
   
   <p align="center">
     <img src="gif/행사게시글/행사 게시글 댓글 삭제.gif">
   </p>
   </details> 
  <details>
-  <summary>행사 게시글 댓글 수정</summary>
+  <summary><strong>행사 게시글 댓글 수정</summary></summary>
     <p align="center">
       <img src="gif/행사게시글/행사 게시글 댓글 수정.gif">
     </p>
   </details> 
   <details>
-  <summary>행사 게시글 댓글 작성</summary>
+  <summary><strong>행사 게시글 댓글 작성</summary></summary>
     <p align="center">
       <img src="gif/행사게시글/행사 게시글 댓글 작성.gif">
     </p>
   </details> 
   <details>
-  <summary>행사 게시글 북마크 등록</summary>
+  <summary><strong>행사 게시글 북마크 등록</summary></summary>
     <p align="center">
       <img src="gif/행사게시글/행사 게시글 북마크 등록.gif">
     </p>
   </details> 
   <details>
-  <summary>행사 게시글 삭제</summary>
+  <summary><strong>행사 게시글 삭제</summary></summary>
     <p align="center">
       <img src="gif/행사게시글/행사 게시글 삭제.gif">
     </p>
   </details> 
   <details>
-  <summary>행사 게시글 수정</summary>
+  <summary><strong>행사 게시글 수정</summary></summary>
     <p align="center">
       <img src="gif/행사게시글/행사 게시글 수정.gif">
     </p>
   </details> 
   <details>
-  <summary>행사 게시글 작성</summary>
+  <summary><strong>행사 게시글 작성</summary></summary>
     <p align="center">
       <img src="gif/행사게시글/행사 게시글 작성.gif">
     </p>
   </details> 
   <details>
-  <summary>행사 게시글 좋아요</summary>
+  <summary><strong>행사 게시글 좋아요</summary></summary>
     <p align="center">
       <img src="gif/행사게시글/행사 게시글 좋아요.gif">
     </p>
   </details> 
   <details>
-  <summary>행사 게시판 검색</summary>
+  <summary><strong>행사 게시판 검색</summary></summary>
     <p align="center">
       <img src="gif/행사게시글/행사 게시판 검색.gif">
     </p>
   </details> 
   
   <details>
-  <summary>행사 참여 신청</summary>
+  <summary><strong>행사 참여 신청</summary></summary>
     <p align="center">
       <img src="gif/행사게시글/행사 참여 신청.gif">
     </p>
   </details> 
   
   <details>
-  <summary>행사게시판 행사 게시글 목록</summary>
+  <summary><strong>행사게시판 행사 게시글 목록</summary></summary>
     <p align="center">
       <img src="gif/행사게시글/행사게시판 행사 게시글 목록.gif">
     </p>
   </details> 
   
   <details>
-  <summary>행사게시판 행사 게시글 조회</summary>
+  <summary><strong>행사게시판 행사 게시글 조회</summary></summary>
     <p align="center">
       <img src="gif/행사게시글/행사게시판 행사 게시글 조회.gif">
     </p>
@@ -853,7 +872,7 @@ SHOW TABLES;
 
 ## :whale: **TRIGGER**
 <details>
-  <summary>트리거 1) 회원 로그인이력 발생 시 통계 집계</summary>
+  <summary><strong>트리거 1) 회원 로그인이력 발생 시 통계 집계</strong></summary>
   <div markdown = '1'>
   
   <p align="center">
@@ -861,25 +880,25 @@ SHOW TABLES;
   </p>
   </details> 
  <details>
-  <summary>트리거 2) 도안 공유 게시판 게시글 작성 시 통계 집계</summary>
+  <summary><strong>트리거 2) 도안 공유 게시판 게시글 작성 시 통계 집계</strong></summary>
     <p align="center">
       <img src="gif/트리거/트리거3번.gif">
     </p>
   </details> 
   <details>
-  <summary>트리거 3) 도안 공유 게시판 게시글 작성 시 통계 집계</summary>
+  <summary><strong>트리거 3) 도안 공유 게시판 게시글 작성 시 통계 집계</strong></summary>
     <p align="center">
       <img src="gif/트리거/트리거3번.gif">
     </p>
   </details> 
   <details>
-  <summary>트리거 4) 재료 나눔 게시글 작성 시 통계 집계</summary>
+  <summary><strong>트리거 4) 재료 나눔 게시글 작성 시 통계 집계</strong></summary>
     <p align="center">
       <img src="gif/트리거/트리거4번.gif">
     </p>
   </details> 
   <details>
-  <summary>트리거 5) 행사 참여 최대 인원이 넘을 시 알림 발생</summary>
+  <summary><strong>트리거 5) 행사 참여 최대 인원이 넘을 시 알림 발생</strong></summary>
     <p align="center">
       <img src="gif/트리거/트리거5번.gif">
     </p>
@@ -891,6 +910,8 @@ SHOW TABLES;
   ## :whale: **VIEW**
 
   ## :whale: **INDEX**
+
+  ## :whale: **EVENT**
 
 # :star2: 코드 시연
 
