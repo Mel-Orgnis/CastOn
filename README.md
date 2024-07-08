@@ -431,7 +431,20 @@ SHOW TABLES;
 </details>
 
 # :star2: 테스트케이스
-
+<details>
+<summary>공지사항 게시판</summary>
+  
+  <div markdown = '1'>
+  <details>
+  <summary>공지사항 게시판</summary>
+  <div markdown = '1'>
+    <p aling="center">
+    <img src="">
+    </p>
+  </div>
+  </details>  
+</div>
+</details>  
 # :star2: 코드 시연
 
 # :star2: 논의사항 및 규칙
