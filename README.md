@@ -433,16 +433,15 @@ SHOW TABLES;
 # :star2: 테스트케이스
 <details>
 <summary>공지사항 게시판</summary>
-  
   <div markdown = '1'>
-  <details>
-  <summary>공지사항 게시판</summary>
-  <div markdown = '1'>
-    <p aling="center">
-    <img src="">
+<ul>
+  <li>공지사항 게시글 작성</li>
+  <p aling="center">
+    <img src="gif_d/공지사항/공지사항작성.gif">
     </p>
-  </div>
-  </details>  
+  
+</ul>
+
 </div>
 </details>  
 # :star2: 코드 시연
