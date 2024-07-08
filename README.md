@@ -856,14 +856,14 @@ SHOW TABLES;
 <summary>join</summary>
 
   <details>
-  <summary>join1</summary>
+  <summary> 1번 실이 존재하는 모든 게시글 / 1번 게시글의 모든 실 추출 </summary>
   
   <p align="center">
     <img src="gif/join/join 구문.gif">
   </p>
   </details> 
  <details>
-  <summary>join2</summary>
+  <summary>신고당한 게시글 확인</summary>
     <p align="center">
       <img src="gif/join/join 구문2.gif">
     </p>
