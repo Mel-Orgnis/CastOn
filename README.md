@@ -78,37 +78,18 @@
 # :star2: DDL
 
 <details>
-<summary>DDL 코드</summary>
-<div markdown = '1'>
+  <summary><strong>테이터베이스 생성</strong></summary>
   
-```
-DROP DATABASE if EXISTS caston;
-CREATE DATABASE caston;
+  ```
+ CREATE DATABASE catson;
+  ```
+  </details> 
 
-USE caston;
-
-DROP TABLE IF EXISTS blacklist_history;
-DROP TABLE IF EXISTS bookmark;
-DROP TABLE IF EXISTS fiber_ptrn_info;
-DROP TABLE IF EXISTS statistics;
-DROP TABLE IF EXISTS file;
-DROP TABLE IF EXISTS member_login_history;
-DROP TABLE IF EXISTS member_history;
-DROP TABLE IF EXISTS event_part_member;
-DROP TABLE IF EXISTS ask;
-DROP TABLE IF EXISTS report;
-DROP TABLE IF EXISTS thread;
-DROP TABLE IF EXISTS answer;
-DROP TABLE IF EXISTS question_board;
-DROP TABLE if EXISTS comment;
-DROP TABLE IF EXISTS notice;
-DROP TABLE IF EXISTS pattern_share;
-DROP TABLE IF EXISTS board;
-DROP TABLE IF EXISTS member;
-DROP TABLE if EXISTS member_login_per_hour;
-SHOW TABLES;
-
-CREATE TABLE IF NOT EXISTS thread
+  <details>
+  <summary><strong>실 테이블</strong></summary>
+  
+  ```
+ CREATE TABLE IF NOT EXISTS thread
 (
     no INTEGER NOT NULL AUTO_INCREMENT comment '실 ID',
     name VARCHAR(255) NOT NULL comment '실 이름',
@@ -118,10 +99,13 @@ CREATE TABLE IF NOT EXISTS thread
     PRIMARY KEY (no)
 )
 comment = '실';
+  ```
+  </details> 
 
-
--- Create tables with proper foreign key constraints
-CREATE TABLE IF NOT EXISTS member
+ <details>
+  <summary><strong>회원 테이블</strong></summary>
+    ```
+     CREATE TABLE IF NOT EXISTS member
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '회원 ID',
     id VARCHAR(255) NOT NULL COMMENT '아이디',
@@ -139,8 +123,12 @@ CREATE TABLE IF NOT EXISTS member
     PRIMARY KEY (no)
 )
 COMMENT = '회원';       
-
-CREATE TABLE IF NOT EXISTS question_board
+     ```
+  </details> 
+  <details>
+  <summary><strong>질문게시판 테이블</strong></summary>
+    ```
+     CREATE TABLE IF NOT EXISTS question_board
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '질문 게시글 ID',
     title VARCHAR(255) NOT NULL COMMENT '질문 제목',
@@ -156,8 +144,12 @@ CREATE TABLE IF NOT EXISTS question_board
     FOREIGN KEY (mem_no) REFERENCES member(no)
 )
 COMMENT = '질문게시판';
-
-CREATE TABLE IF NOT EXISTS answer
+```
+  </details> 
+  <details>
+  <summary><strong>질문답변 테이블</strong></summary>
+    ```
+     CREATE TABLE IF NOT EXISTS answer
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '답변 ID',
     content MEDIUMTEXT NOT NULL COMMENT '답변 내용',
@@ -171,8 +163,12 @@ CREATE TABLE IF NOT EXISTS answer
     FOREIGN KEY (ques_no) REFERENCES question_board(no) ON DELETE CASCADE
 )
 COMMENT = '질문답변';
-
-CREATE TABLE IF NOT EXISTS ask
+ ```
+  </details> 
+  <details>
+  <summary><strong>문의 게시판 테이블</strong></summary>
+    ```
+    CREATE TABLE IF NOT EXISTS ask
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '문의 ID',
     content MEDIUMTEXT NOT NULL COMMENT '문의 내용',
@@ -184,8 +180,12 @@ CREATE TABLE IF NOT EXISTS ask
     FOREIGN KEY (mem_no) REFERENCES member(no)
 )
 COMMENT = '문의';
-
-CREATE TABLE IF NOT EXISTS blacklist_history
+```
+  </details> 
+  <details>
+  <summary><strong>블랙리스트 이력 테이블</strong></summary>
+    ```
+    CREATE TABLE IF NOT EXISTS blacklist_history
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '블랙리스트 ID',
     black_date DATETIME NOT NULL COMMENT '블랙 날짜',
@@ -196,8 +196,12 @@ CREATE TABLE IF NOT EXISTS blacklist_history
     FOREIGN KEY (mem_no) REFERENCES member(no)
 )
 COMMENT = '블랙리스트 이력';
-
-CREATE TABLE IF NOT EXISTS board
+```
+  </details> 
+  <details>
+  <summary><strong>게시판 테이블</strong></summary>
+    ```
+     CREATE TABLE IF NOT EXISTS board
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '게시글 ID',
     title VARCHAR(255) NOT NULL COMMENT '게시글 제목',
@@ -221,11 +225,12 @@ CREATE TABLE IF NOT EXISTS board
     FOREIGN KEY (mem_no) REFERENCES member(no)
 )
 COMMENT = '게시글';
-
-
-
-
-CREATE TABLE IF NOT EXISTS event_part_member
+```
+  </details> 
+  <details>
+  <summary><strong>회원참여행사 테이블</strong></summary>
+    ```
+     CREATE TABLE IF NOT EXISTS event_part_member
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '회원별행사 ID',
     mem_no INTEGER NOT NULL COMMENT '회원 ID',
@@ -235,8 +240,12 @@ CREATE TABLE IF NOT EXISTS event_part_member
     FOREIGN KEY (brd_no) REFERENCES board(no) ON DELETE CASCADE
 )
 COMMENT = '회원참여행사';
-
-CREATE TABLE IF NOT EXISTS pattern_share
+```
+  </details> 
+<details>
+  <summary><strong>도안 공유 게시판 테이블</strong></summary>
+    ```
+     CREATE TABLE IF NOT EXISTS pattern_share
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '도안 공유 게시글 ID',
     title VARCHAR(255) NOT NULL COMMENT '도안 공유 게시글 제목',
@@ -255,12 +264,13 @@ CREATE TABLE IF NOT EXISTS pattern_share
     PRIMARY KEY (no),
     FOREIGN KEY (mem_no) REFERENCES member(no)
 )
-COMMENT = '도안 공유 게시판';       
- 
-
-
-
-CREATE TABLE IF NOT EXISTS fiber_ptrn_info
+COMMENT = '도안 공유 게시판';  
+```
+  </details> 
+<details>
+  <summary><strong>실_도안 테이블</strong></summary>
+    ```
+     CREATE TABLE IF NOT EXISTS fiber_ptrn_info
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '실_게시판 ID',
     trd_no INTEGER NOT NULL COMMENT '실 ID',
@@ -270,9 +280,12 @@ CREATE TABLE IF NOT EXISTS fiber_ptrn_info
     FOREIGN KEY (ptrn_shr_no) REFERENCES pattern_share(no) ON DELETE CASCADE
 )
 COMMENT = '실_도안정보';
-
-
-CREATE TABLE IF NOT EXISTS member_history
+```
+  </details> 
+<details>
+  <summary><strong>회원 이력 테이블</strong></summary>
+    ```
+     CREATE TABLE IF NOT EXISTS member_history
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '회원 이력 ID',
     dml VARCHAR(255) NOT NULL COMMENT 'DML 구분',
@@ -294,8 +307,12 @@ CREATE TABLE IF NOT EXISTS member_history
     FOREIGN KEY (mem_no) REFERENCES member(no)
 )
 COMMENT = '회원 이력';
-
-CREATE TABLE IF NOT EXISTS member_login_history
+```
+  </details> 
+<details>
+  <summary><strong>회원 로그인 이력 테이블</strong></summary>
+    ```
+     CREATE TABLE IF NOT EXISTS member_login_history
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '회원 로그인 이력 ID',
     login_date DATETIME NOT NULL COMMENT '로그인 날짜',
@@ -305,8 +322,12 @@ CREATE TABLE IF NOT EXISTS member_login_history
     FOREIGN KEY (mem_no) REFERENCES member(no)
 )
 COMMENT = '회원 로그인 이력';
-
-CREATE TABLE IF NOT EXISTS notice
+```
+  </details> 
+<details>
+  <summary><strong>공지게시판 테이블</strong></summary>
+    ```
+     CREATE TABLE IF NOT EXISTS notice
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '공지 ID',
     title VARCHAR(255) NOT NULL COMMENT '게시글 제목',
@@ -321,10 +342,12 @@ CREATE TABLE IF NOT EXISTS notice
     FOREIGN KEY (mem_no) REFERENCES member(no)
 )
 COMMENT = '공지게시판';
-
-
-
-CREATE TABLE IF NOT EXISTS comment
+```
+  </details> 
+<details>
+  <summary><strong>댓글 테이블</strong></summary>
+    ```
+     CREATE TABLE IF NOT EXISTS comment
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '댓글 ID',
     content MEDIUMTEXT NOT NULL COMMENT '댓글 내용',
@@ -340,8 +363,12 @@ CREATE TABLE IF NOT EXISTS comment
     FOREIGN KEY (mem_no) REFERENCES member(no)
 )
 COMMENT = '댓글';
-
-CREATE TABLE IF NOT EXISTS report
+```
+  </details> 
+<details>
+  <summary><strong>신고 테이블</strong></summary>
+    ```
+     CREATE TABLE IF NOT EXISTS report
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '신고 ID',
     content MEDIUMTEXT NOT NULL COMMENT '신고 문의 내용',
@@ -362,8 +389,12 @@ CREATE TABLE IF NOT EXISTS report
     FOREIGN KEY (ans_no) REFERENCES answer(no) ON DELETE CASCADE
 )
 COMMENT = '신고';
-
-CREATE TABLE IF NOT EXISTS statistics
+```
+  </details> 
+<details>
+  <summary><strong>통계 테이블</strong></summary>
+    ```
+     CREATE TABLE IF NOT EXISTS statistics
 (
     no DATETIME NOT NULL COMMENT '통계',
     visitor_count INTEGER DEFAULT 0 NOT NULL COMMENT '누적 방문자 수',
@@ -372,10 +403,12 @@ CREATE TABLE IF NOT EXISTS statistics
     PRIMARY KEY (no)
 )
 COMMENT = '통계';
-
-
-
-CREATE TABLE IF NOT EXISTS bookmark
+```
+  </details> 
+<details>
+  <summary><strong>북마크 테이블</strong></summary>
+    ```
+     CREATE TABLE IF NOT EXISTS bookmark
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '북마크 ID',
     mem_no INTEGER NOT NULL COMMENT '회원 ID',
@@ -389,9 +422,12 @@ CREATE TABLE IF NOT EXISTS bookmark
     FOREIGN KEY (ques_no) REFERENCES question_board(no) ON DELETE CASCADE
 )
 comment = '북마크';
-
-
-CREATE TABLE IF NOT EXISTS file
+```
+  </details> 
+<details>
+  <summary><strong>파일 테이블</strong></summary>
+    ```
+    CREATE TABLE IF NOT EXISTS file
 (
     no INTEGER NOT NULL AUTO_INCREMENT COMMENT '파일 ID',
     size VARCHAR(255) NOT NULL COMMENT '파일 크기',
@@ -415,21 +451,20 @@ CREATE TABLE IF NOT EXISTS file
     FOREIGN KEY (ques_no) REFERENCES question_board(no) ON DELETE CASCADE
 )
 comment = '파일';
-
-CREATE TABLE member_login_per_hour
+```
+  </details> 
+<details>
+  <summary><strong>시간당 방문자 테이블</strong></summary>
+    ```
+     CREATE TABLE member_login_per_hour
 (
     NO DATETIME NOT NULL 
   , mem_no INT NOT NULL,
   PRIMARY KEY (NO, mem_no)
 )
 comment = '시간당 방문자';
-
-SHOW TABLES;
-
 ```
-
-</div>
-</details>
+  </details> 
 
 # :star2: 리눅스 서버 구축
 ### Replication
