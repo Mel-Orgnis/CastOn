@@ -449,7 +449,7 @@ SHOW TABLES;
     </p>  
   <li>공지사항 게시글 댓글 작성 여부 선택</li>
   <p aling="center">
-    <img src="gif_d/공지사항/공지사항댓글체크.gif">
+    <img src="gif_d/공지사항/공지게시글댓글체크.gif">
     </p>  
   <li>공지사항 게시글 댓글 작성</li>
   <p aling="center">
