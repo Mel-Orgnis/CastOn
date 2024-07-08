@@ -237,10 +237,6 @@ SELECT NO
  WHERE cate = '나눔'
    AND content LIKE '%바늘%';
 
-
-
-
-
 SELECT NO
      , title
      , content
