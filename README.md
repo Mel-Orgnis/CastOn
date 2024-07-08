@@ -487,10 +487,6 @@ SHOW TABLES;
   <p aling="center">
     <img src="gif_d/재료나눔/나눔게시글삭제.gif">
     </p>
-  <li>재료나눔 게시글 검색 - 작성자</li>
-  <p aling="center">
-    <img src="gif_d/재료나눔/나눔나눔게시글작성자검색.gif">
-    </p>
   <li>재료나눔 게시글 검색 - 제목</li>
   <p aling="center">
     <img src="gif_d/재료나눔/나눔게시글제목검색.gif">
