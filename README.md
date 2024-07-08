@@ -767,8 +767,7 @@ SHOW TABLES;
   </details>
 
 ---
-
-  <details>
+<details>
 <summary>행사 게시판</summary>
 
   <details>
@@ -848,33 +847,31 @@ SHOW TABLES;
     </p>
   </details> 
   </details>
+  
+--- 
 
 ---
 
 <details>
-<summary>트리거</summary>
-  <div markdown = '1'>
-<ul>
-  <li>트리거 1) 회원 로그인이력 발생 시 통계 집계 </li>
-  <p aling="center">
-    <img src="gif/트리거/트리거1번2번.gif">
+<summary>join</summary>
+
+  <details>
+  <summary>join1</summary>
+  
+  <p align="center">
+    <img src="gif/join/join 구문.gif">
+  </p>
+  </details> 
+ <details>
+  <summary>join2</summary>
+    <p align="center">
+      <img src="gif/join/join 구문2.gif">
     </p>
-  <li>트리거 2) 도안 공유 게시판 게시글 작성 시 통계 집계</li>
-  <p aling="center">
-    <img src="gif/트리거/트리거3번.gif">
-    </p>
-  <li>트리거 3) 도안 공유 게시판 게시글 작성 시 통계 집계</li>
-  <p aling="center">
-    <img src="gif/트리거/트리거3번.gif">
-    </p>
-  <li>트리거 4) 재료 나눔 게시글 작성 시 통계 집계</li>
-  <p aling="center">
-    <img src="gif/트리거/트리거4번.gif">
-    </p>
-  <li>트리거 5) 행사 참여 최대 인원이 넘을 시 알림 발생</li>
-  <p aling="center">
-    <img src="gif/트리거/트리거5번.gif">
-    </p>
+  </details> 
+</details>
+
+
+
 </ul>
 </div>
 </details> 
