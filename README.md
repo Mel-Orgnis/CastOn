@@ -882,6 +882,7 @@ SHOW TABLES;
     <img src="gif/이벤트/event_1gif">
   </p>
   </details> 
+</details>
 
 ---
 
@@ -895,6 +896,7 @@ SHOW TABLES;
     <img src="gif/view/view_1.gif">
   </p>
   </details> 
+</details>
 
 
 
