@@ -1263,7 +1263,7 @@ master IP로 slave 연동 <br></br> <br></br>
   - `eg_date` 인덱스는 게시글 등록 날짜를 기준으로 최신 게시글이나 특정 기간의 게시글을 빠르게 찾을 때<br>
 
   <p align="center">
-    <img src="gif/인덱스/index.gif">
+    <img src="사진/인덱스/index.png">
   </p>
   </details> 
 
