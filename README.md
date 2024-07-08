@@ -938,7 +938,79 @@ master IP로 slave 연동 <br></br> <br></br>
       <img src="gif/행사게시글/행사게시판 행사 게시글 조회.gif">
     </p>
   </details> 
-  </details>
+      </details> 
+
+  <details>
+<summary><strong>도안 공유 게시판</strong></summary>
+
+<details>
+  <summary><strong>도안 공유 게시글 조회 </strong></summary>
+    <p align="center">
+      <img src="gif/도안공유/01_게시글조회.gif">
+    </p>
+  </details> 
+<details>
+  <summary><strong>도안 공유 게시판 목록 조회 </strong></summary>
+    <p align="center">
+      <img src="gif/도안공유/02_게시판목록조회.gif">
+    </p>
+  </details> 
+  <details>
+  <summary><strong>도안 공유 게시글 작성 </strong></summary>
+    <p align="center">
+      <img src="gif/도안공유/03_게시글작성.gif">
+    </p>
+  </details> 
+<details>
+  <summary><strong>도안 공유 게시글 삭제 </strong></summary>
+    <p align="center">
+      <img src="gif/도안공유/04_게시글삭제.gif">
+    </p>
+  </details> 
+<details>
+  <summary><strong>도안 공유 게시글 수정 </strong></summary>
+    <p align="center">
+      <img src="gif/도안공유/05_게시글수정.gif">
+    </p>
+  </details> 
+<details>
+  <summary><strong>도안 공유 게시글 북마크 추가 </strong></summary>
+    <p align="center">
+      <img src="gif/도안공유/06_북마크추가.gif">
+    </p>
+  </details> 
+<details>
+  <summary><strong>도안 공유 게시글 북마크 삭제 </strong></summary>
+    <p align="center">
+      <img src="gif/도안공유/07_북마크삭제.gif">
+    </p>
+  </details> 
+<details>
+  <summary><strong>도안 공유 게시글 좋아요 </strong></summary>
+    <p align="center">
+      <img src="gif/도안공유/08_좋아요.gif">
+    </p>
+  </details> 
+<details>
+  <summary><strong>도안 공유 게시글 댓글 수정 </strong></summary>
+    <p align="center">
+      <img src="gif/도안공유/09_댓글수정.gif">
+    </p>
+  </details> 
+<details>
+  <summary><strong>도안 공유 게시글 댓글 삭제 </strong></summary>
+    <p align="center">
+      <img src="gif/도안공유/10_댓글삭제.gif">
+    </p>
+  </details> 
+<details>
+  <summary><strong>도안 공유 게시글 댓글 작성 </strong></summary>
+    <p align="center">
+      <img src="gif/도안공유/11_댓글작성.gif">
+    </p>
+  </details> 
+</details>
+
 
 ## :whale: **TRIGGER**
 <details>
