@@ -761,7 +761,6 @@ master IP로 slave 연동 <br></br> <br></br>
 
   <details>
   <summary><strong>질문 게시글 조회</strong></summary>
-  
   <p align="center">
     <img src="gif/질문/질문글 조회.gif">
   </p>
