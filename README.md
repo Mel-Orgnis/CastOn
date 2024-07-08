@@ -431,7 +431,21 @@ SHOW TABLES;
 </div>
 </details>
 
+# :star2: 리눅스 서버 구축
+### Replication
+> 레플리케이션(Replication)은 데이터베이스 시스템에서 데이터의 복사본을 여러 서버에 생성하여 가용성과 성능을 향상시키는 기술입니다. 레플리케이션을 사용하면 하나의 서버가 다운되더라도 다른 서버에서 데이터를 제공할 수 있어 데이터베이스의 가용성을 높일 수 있습니다. 또한 데이터의 여러 복사본이 존재하므로 데이터 손실 시 빠른 복구가 가능합니다. 또한, 정기적인 백업과 복구 테스트를 통해 데이터의 안전성을 높일 수 있습니다.
+
+저희는 **마스터-슬레이브(Master-Slave) 레플리케이션**을 사용하였습니다.
+
+**마스터-슬레이브(Master-Slave) 레플리케이션은** 하나의 마스터 서버가 모든 쓰기 작업(INSERT, UPDATE, DELETE 등)을 처리하고, 하나 이상의 슬레이브 서버가 마스터의 변경 사항을 복제하여 읽기 작업(SELECT)을 처리합니다.
+
+- master - slave 연동
+<p align="center">
+      <img src="사진/연동/연동1.png">
+</p>
+
 # :star2: 테스트케이스
+## :whale: **Query**
 <details>
 <summary>회원</summary>
 
@@ -837,33 +851,46 @@ SHOW TABLES;
   </details> 
   </details>
 
+## :whale: **TRIGGER**
 <details>
-<summary>트리거</summary>
+  <summary>트리거 1) 회원 로그인이력 발생 시 통계 집계</summary>
   <div markdown = '1'>
-<ul>
-  <li>트리거 1) 회원 로그인이력 발생 시 통계 집계 </li>
-  <p aling="center">
+  
+  <p align="center">
     <img src="gif/트리거/트리거1번2번.gif">
+  </p>
+  </details> 
+ <details>
+  <summary>트리거 2) 도안 공유 게시판 게시글 작성 시 통계 집계</summary>
+    <p align="center">
+      <img src="gif/트리거/트리거3번.gif">
     </p>
-  <li>트리거 2) 도안 공유 게시판 게시글 작성 시 통계 집계</li>
-  <p aling="center">
-    <img src="gif/트리거/트리거3번.gif">
+  </details> 
+  <details>
+  <summary>트리거 3) 도안 공유 게시판 게시글 작성 시 통계 집계</summary>
+    <p align="center">
+      <img src="gif/트리거/트리거3번.gif">
     </p>
-  <li>트리거 3) 도안 공유 게시판 게시글 작성 시 통계 집계</li>
-  <p aling="center">
-    <img src="gif/트리거/트리거3번.gif">
+  </details> 
+  <details>
+  <summary>트리거 4) 재료 나눔 게시글 작성 시 통계 집계</summary>
+    <p align="center">
+      <img src="gif/트리거/트리거4번.gif">
     </p>
-  <li>트리거 4) 재료 나눔 게시글 작성 시 통계 집계</li>
-  <p aling="center">
-    <img src="gif/트리거/트리거4번.gif">
+  </details> 
+  <details>
+  <summary>트리거 5) 행사 참여 최대 인원이 넘을 시 알림 발생</summary>
+    <p align="center">
+      <img src="gif/트리거/트리거5번.gif">
     </p>
-  <li>트리거 5) 행사 참여 최대 인원이 넘을 시 알림 발생</li>
-  <p aling="center">
-    <img src="gif/트리거/트리거5번.gif">
-    </p>
-</ul>
-</div>
-</details> 
+  </details> 
+
+  ## :whale: **JOIN**
+
+
+  ## :whale: **VIEW**
+
+  ## :whale: **INDEX**
 
 # :star2: 코드 시연
 
