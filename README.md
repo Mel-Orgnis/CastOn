@@ -540,7 +540,6 @@ master IP로 slave 연동 <br></br> <br></br>
 # :star2: 코드 시연
 
 
-# :star2: 테스트케이스
 ## :whale: **Query**
 <details>
 <summary><strong>회원</strong></summary>  <br>
