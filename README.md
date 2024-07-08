@@ -84,9 +84,9 @@
   ```
  CREATE DATABASE catson;
   ```
-  </details> 
+</details> 
 
-  <details>
+<details>
   <summary><strong>실 테이블</strong></summary>
   
   ```
@@ -101,7 +101,7 @@
 )
 comment = '실';
   ```
-  </details> 
+</details> 
 
  <details>
   <summary><strong>회원 테이블</strong></summary>
