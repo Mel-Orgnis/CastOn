@@ -539,8 +539,8 @@ SHOW TABLES;
     </p>
   </details> 
   </details>
-
-<br></br>
+  
+---
 
 <details>
 <summary>공지사항 게시판</summary>
@@ -596,6 +596,8 @@ SHOW TABLES;
   </details> 
   </details>
 
+---
+
 <details>
 <summary>문의 게시판</summary>
 
@@ -643,6 +645,8 @@ SHOW TABLES;
     </p>
   </details> 
   </details>
+
+---
 
   <details>
 <summary>재료나눔 게시판</summary>
@@ -700,7 +704,8 @@ SHOW TABLES;
   </details> 
   </details>
 
-  <br></br>
+  ---
+  
   <details>
 <summary>견적 게시판</summary>
 
@@ -761,7 +766,8 @@ SHOW TABLES;
   </details> 
   </details>
 
-<br></br>
+---
+
   <details>
 <summary>행사 게시판</summary>
 
@@ -843,7 +849,8 @@ SHOW TABLES;
   </details> 
   </details>
 
-<br></br>
+---
+
 <details>
 <summary>트리거</summary>
   <div markdown = '1'>
