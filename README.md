@@ -2,7 +2,7 @@
 # :star2: 프로젝트 개요
 
 ## :busts_in_silhouette: 팀원 소개
-|<img src="사진/기우석.png" width="200"> |<img src="사진/김동혁.jpg" width="200"> | <img src="사진/백경석.jpg" width="200">|<img src="사진/이우진.jpg" width="200"> | <img src="https://github.com/Mel-Orgnis/CastOn/assets/139112248/6b6adc68-0f12-468b-8742-604115c9233a" width="200"> | <img src="사진/유혜진.jpg" width="200">|
+|<img src="사진/기우석.png" width="200" height = "300"> |<img src="사진/김동혁.jpg" width="200"> | <img src="사진/백경석.jpg" width="200">|<img src="사진/유혜진.jpg" width="200"> | <img src="https://github.com/Mel-Orgnis/CastOn/assets/139112248/6b6adc68-0f12-468b-8742-604115c9233a" width="200"> | <img src="사진/이우진.jpg" width="200">|
 | :------------------------------------: | :-------------------------------------: | :-----------------------------------: | :--------------------------------------: | :-----------------------------------: | :------------------------------------------: |
 | [기우석](https://github.com/woosuk1) | [김동혁](https://github.com/dongkh9) | [백경석](https://github.com/Hellin22) | [유혜진](https://github.com/yuhyejin) | [이서현](https://github.com/sh694090) | [이우진](https://github.com/Vorschlag-bit) |
 
