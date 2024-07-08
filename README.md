@@ -439,8 +439,34 @@ SHOW TABLES;
   <p aling="center">
     <img src="gif_d/공지사항/공지사항작성.gif">
     </p>
+  <li>공지사항 게시글 조</li>
+  <p aling="center">
+    <img src="gif_d/공지사항/공지사항조회.gif">
+    </p>
+  <li>공지사항 게시글 수정</li>
+  <p aling="center">
+    <img src="gif_d/공지사항/공지사항수정.gif">
+    </p>  
+  <li>공지사항 게시글 댓글 작성</li>
+  <p aling="center">
+    <img src="gif_d/공지사항/공지사항댓글작성.gif">
+    </p>
+  <li>공지사항 게시글 댓글 수정</li>
+  <p aling="center">
+    <img src="gif_d/공지사항/공지사항댓글수정.gif">
+    </p>
+  <li>공지사항 게시글 댓글 삭제</li>
+  <p aling="center">
+    <img src="gif_d/공지사항/공지사항댓글삭제.gif">
+    </p>
+  <li>공지사항 게시글 좋아요</li>
+  <p aling="center">
+    <img src="gif_d/공지사항/공지사항좋아요.gif">
+    </p>
+
   
 </ul>
+
 
 </div>
 </details>  
