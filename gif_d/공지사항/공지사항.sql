@@ -92,6 +92,26 @@ SELECT
 
 
 
+-- 34) 공지사항 댓글작성기능 여부 업데이트
+
+
+
+
+
+
+
+
+
+SELECT * FROM notice;
+
+UPDATE notice
+   SET 
+	    comment_check = 'Y',
+	    edit_date = NOW()
+ WHERE NO = 1;
+
+SELECT * FROM notice;
+
 
 
 
@@ -111,6 +131,7 @@ DELETE
  WHERE NO = 1;
 
 SELECT * FROM notice;
+
 
 
 
