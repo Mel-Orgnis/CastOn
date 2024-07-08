@@ -433,7 +433,6 @@ SHOW TABLES;
 # :star2: 테스트케이스
 <details>
 <summary>공지사항 게시판</summary>
-  <div markdown = '1'>
 <ul>
   <li>공지사항 게시글 작성</li>
   <p aling="center">
@@ -468,7 +467,6 @@ SHOW TABLES;
     <img src="gif/공지사항/공지사항좋아요.gif">
     </p>
 </ul>
-</div>
 </details>  
 
 <details>
