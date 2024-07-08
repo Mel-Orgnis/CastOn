@@ -712,7 +712,6 @@ master IP로 slave 연동 <br></br> <br></br>
 
   <details>
   <summary><strong>문의사항 게시글 조회</strong></summary>
-  
   <p align="center">
     <img src="gif/문의/문의조회.gif">
   </p>
