@@ -355,6 +355,7 @@ COMMENT = '실_도안정보';
     grade VARCHAR(255) NOT NULL COMMENT '회원등급',
     gender CHAR(4) NOT NULL CHECK(gender IN ('M', 'F')),
     age INTEGER NOT NULL COMMENT '회원나이',
+    active_check CHAR(4) DEFAULT 'Y' NOT NULL CHECK(leave_check IN ('Y', 'N')),
     leave_check CHAR(4) DEFAULT 'N' NOT NULL CHECK(leave_check IN ('Y', 'N')),
     black_check CHAR(4) DEFAULT 'N' NOT NULL CHECK(black_check IN ('Y', 'N')),
     auth_check CHAR(4) DEFAULT 'N' NOT NULL CHECK(auth_check IN ('Y', 'N')),
