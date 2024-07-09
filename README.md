@@ -95,7 +95,7 @@
 
 # :star2: 도메인
 
-[:link:도메인 자세히 보기](https://docs.google.com/spreadsheets/d/1-Plo5h9zFCr5WkEksAg31gwjVR0dq3NxXzqlooIPhqc/edit?usp=sharing)
+[:link:도메인 자세히 보기](https://docs.google.com/spreadsheets/d/1-Plo5h9zFCr5WkEksAg31gwjVR0dq3NxXzqlooIPhqc/edit?gid=333716726#gid=333716726)
 
 <img src = "사진/도메인.jpg"> <br>
 
@@ -578,7 +578,7 @@ master IP로 slave 연동 <br></br> <br></br>
 
 # :star2: 테스트케이스
 
-[:link:테스트코드 자세히 보기](https://docs.google.com/spreadsheets/d/1-Plo5h9zFCr5WkEksAg31gwjVR0dq3NxXzqlooIPhqc/edit?usp=sharing)
+[:link:테스트코드 자세히 보기](https://docs.google.com/spreadsheets/d/1-Plo5h9zFCr5WkEksAg31gwjVR0dq3NxXzqlooIPhqc/edit?gid=820565985#gid=820565985)
 
 <img src = "사진/테스트코드.jpg"> <br>
 
@@ -1399,7 +1399,7 @@ master IP로 slave 연동 <br></br> <br></br>
 
 # :star2: 논의사항 및 규칙
 
-[:link:작성규칙 자세히 보기](https://docs.google.com/spreadsheets/d/1-Plo5h9zFCr5WkEksAg31gwjVR0dq3NxXzqlooIPhqc/edit?usp=sharing)
+[:link:작성규칙 자세히 보기](https://docs.google.com/spreadsheets/d/1-Plo5h9zFCr5WkEksAg31gwjVR0dq3NxXzqlooIPhqc/edit?gid=68162929#gid=68162929)
 
 <img src = "사진/작성규칙.png"> <br>
 
