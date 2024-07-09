@@ -1400,7 +1400,7 @@ master IP로 slave 연동 <br></br> <br></br>
 
 [:link:작성규칙 자세히 보기](https://docs.google.com/spreadsheets/d/1-Plo5h9zFCr5WkEksAg31gwjVR0dq3NxXzqlooIPhqc/edit?usp=sharing)
 
-<img src = "사진/작성규칙.jpg"> <br>
+<img src = "사진/작성규칙.png"> <br>
 
 <br>
 
