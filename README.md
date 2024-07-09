@@ -91,7 +91,7 @@
 
 [:link:요구사항 명세서 자세히 보기](https://docs.google.com/spreadsheets/d/1-Plo5h9zFCr5WkEksAg31gwjVR0dq3NxXzqlooIPhqc/edit?gid=584262611#gid=584262611)
 
-<img src = "사진/요구사항명세서.jpg"> <br>
+<img src = "사진/요구사항명세서1.jpg"> <br>
 
 # :star2: 도메인
 
