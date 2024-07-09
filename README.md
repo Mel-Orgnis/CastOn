@@ -717,7 +717,7 @@ master IP로 slave 연동 <br></br> <br></br>
   <details>
   <summary><strong>공지사항 게시글 수정</strong></summary>
     <p align="center">
-      <img src="gif/공지사항/공지사항수정gif">
+      <img src="gif/공지사항/공지사항수정.gif">
     </p>
   </details> 
   <details>
