@@ -784,7 +784,7 @@ master IP로 slave 연동 <br></br> <br></br>
   <details>
   <summary><strong>질문 작성자 ID로 검색</strong></summary>
     <p align="center">
-      <img src="gif/question/답변작성자로검색.gif">
+      <img src="gif/question/질문작성자로검색.gif">
     </p>
   </details> 
   <details>
@@ -809,12 +809,6 @@ master IP로 slave 연동 <br></br> <br></br>
   <summary><strong>질문 삭제</strong></summary>
     <p align="center">
       <img src="gif/question/질문삭제.gif">
-    </p>
-  </details> 
-<details>
-  <summary><strong>질문 채택</strong></summary>
-    <p align="center">
-      <img src="gif/question/질문채택.gif">
     </p>
   </details> 
   <details>
