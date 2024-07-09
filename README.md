@@ -6,7 +6,19 @@
 | :------------------------------------: | :-------------------------------------: | :-----------------------------------: | :--------------------------------------: | :-----------------------------------: | :------------------------------------------: |
 | [기우석](https://github.com/woosuk1) | [김동혁](https://github.com/dongkh9) | [백경석](https://github.com/Hellin22) | [유혜진](https://github.com/yuhyejin) | [이서현](https://github.com/sh694090) | [이우진](https://github.com/Vorschlag-bit) |
 
-## 기술 스택
+<br><br>
+
+<div align=center><h1>📚 STACKS</h1></div>
+<div align=center> 
+  <img src="https://img.shields.io/badge/MariaDB-F7DF1E?style=plastic&logo=MariaDB&logoColor=black"/>
+  <img src="https://img.shields.io/badge/git-F05032?style=plastic&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/Notion-000000?style=plastic&logo=Notion&logoColor=wthie"/>
+  <img src="https://img.shields.io/badge/github-181717?style=plastic&logo=github&logoColor=white">
+  <img src="https://img.shields.io/badge/Linux-FFFFFF?style=plastic&logo=Linux&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Vim-019733?style=plastic&logo=Vim&logoColor=WHITE"/>
+</div>
+<br>
+<br>
 
 ## :one: 프로젝트 소개
 
@@ -18,6 +30,8 @@
 - 이러한 의미처럼 기존에 뜨개질을 취미로 가지고 있는 사람뿐만 아니라, 처음 입문하는 사람들도 쉽게 접근할 수 있는 서비스를 목적으로 하고 있습니다.
 - '캐스트 온'에서는 여러 플랫폼에 분산되어 있는 뜨개 관련 정보를 한 곳에서 보고, 함께 소통할 수 있습니다.
 
+<br>
+
 ## :two: 서비스 도입 배경
 
 <p align="center"> 
@@ -27,6 +41,8 @@
 
 - 왼쪽 그래프는 온라인 상에서 2021년 1월부터 2023년 12월 사이의 뜨개질 언급량 추이를 기록한 그래프입니다. 2021년보다 2023년에서 ‘뜨개’라는 단어의 언급량이 2.8배 증가했음을 볼 수 있습니다.
 - 오른쪽 기사는 24년 1월 2일 발행된 기사로 우리나라 뜨개 기업인 ‘바늘 이야기’의 20, 30대 매출액 비중이 절반을 넘겼음을 확인할 수 있습니다. 현재 유튜브, 인스타그램 등 다양한 플랫폼에서 많은 사람들이 뜨개 관련 정보를 공유하며 커뮤니티를 형성하고 있습니다.
+
+<br>
 
 ## :three: 유사 서비스
 
@@ -41,6 +57,7 @@
 - **장점**: 전 세계의 뜨개인들이 활동하고 있기 때문에 다양한 도안을 접할 수 있습니다. </br>
 - **단점**: 영어로 된 뜨개 용어를 사용하기 때문에 초심자의 진입장벽이 높습니다.
 
+<br>
 
 ### :round_pushpin: 도아니티
 <p class="half" align="center">
@@ -52,6 +69,8 @@
 - **장점**: 국내에서 만든 커뮤니티이기 때문에 초심자도 쉽게 접근할 수 있습니다. </br>
 - **단점**: 도안 판매 위주로 운영되어 커뮤니티의 역할은 크지 않습니다.
 
+<br>
+
 ## :four: 차별화 전략
 
 - 우리나라의 다양한 뜨개 디자이너들이 **한국어로 활동**할 수 있습니다. </p>
@@ -60,7 +79,19 @@
 - 판매보다는 **나눔과 공유**를 지향합니다. </p>
 - **한국어 용어**를 사용해 뜨개 입문자들도 뜨개질에 쉽게 접근할 수 있습니다. </p>
 
+<br>
+
+# :star2: WBS
+
+[:link:WBS 자세히 보기](https://docs.google.com/spreadsheets/d/1-Plo5h9zFCr5WkEksAg31gwjVR0dq3NxXzqlooIPhqc/edit?usp=sharing)
+
+<img src = "사진/WBS.png"> <br>
+
 # :star2: 요구사항 명세서
+
+[:link:요구사항 명세서 자세히 보기](https://docs.google.com/spreadsheets/d/1-Plo5h9zFCr5WkEksAg31gwjVR0dq3NxXzqlooIPhqc/edit?usp=sharing)
+
+<img src = "사진/요구사항명세서.jpg"> <br>
 
 # :star2: DB 모델링
 
@@ -505,6 +536,8 @@ comment = '시간당 방문자';
   </details> 
   </details>
 
+  <br><br>
+
 # :star2: 리눅스 서버 구축
 ### Replication
 > 레플리케이션(Replication)은 데이터베이스 시스템에서 데이터의 복사본을 여러 서버에 생성하여 가용성과 성능을 향상시키는 기술입니다. 레플리케이션을 사용하면 하나의 서버가 다운되더라도 다른 서버에서 데이터를 제공할 수 있어 데이터베이스의 가용성을 높일 수 있습니다. 또한 데이터의 여러 복사본이 존재하므로 데이터 손실 시 빠른 복구가 가능합니다. 또한, 정기적인 백업과 복구 테스트를 통해 데이터의 안전성을 높일 수 있습니다.
@@ -539,6 +572,10 @@ master IP로 slave 연동 <br></br> <br></br>
 
 
 # :star2: 테스트케이스
+
+[:link:테스트코드 자세히 보기](https://docs.google.com/spreadsheets/d/1-Plo5h9zFCr5WkEksAg31gwjVR0dq3NxXzqlooIPhqc/edit?usp=sharing)
+
+<img src = "사진/테스트코드.jpg"> <br>
 
 
 # :star2: 코드 시연
@@ -1265,7 +1302,7 @@ master IP로 slave 연동 <br></br> <br></br>
   - `eg_date` 인덱스는 게시글 등록 날짜를 기준으로 최신 게시글이나 특정 기간의 게시글을 빠르게 찾을 때<br>
 
   <p align="center">
-    <img src="사진/인덱스/index.png">
+    <img src="사진/index.png">
   </p>
   </details> 
 
@@ -1326,3 +1363,7 @@ master IP로 slave 연동 <br></br> <br></br>
  </details> 
 
 # :star2: 논의사항 및 규칙
+
+[:link:작성규칙 자세히 보기](https://docs.google.com/spreadsheets/d/1-Plo5h9zFCr5WkEksAg31gwjVR0dq3NxXzqlooIPhqc/edit?usp=sharing)
+
+<img src = "사진/작성규칙.jpg"> <br>
