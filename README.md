@@ -95,7 +95,7 @@
 
 # :star2: 도메인
 
-[:link:요구사항 명세서 자세히 보기](https://docs.google.com/spreadsheets/d/1-Plo5h9zFCr5WkEksAg31gwjVR0dq3NxXzqlooIPhqc/edit?usp=sharing)
+[:link:도메인 자세히 보기](https://docs.google.com/spreadsheets/d/1-Plo5h9zFCr5WkEksAg31gwjVR0dq3NxXzqlooIPhqc/edit?usp=sharing)
 
 <img src = "사진/도메인.jpg"> <br>
 
