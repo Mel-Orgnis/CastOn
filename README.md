@@ -1232,6 +1232,42 @@ master IP로 slave 연동 <br></br> <br></br>
 
 ---
 
+<details>
+  <summary> 북마크 </summary>
+  <details>
+    <summary><strong> 북마크 게시글 조회 </strong></summary>
+      <p align="center">
+        <img src="gif/bookmark/bookmark_1.gif">
+      </p>
+  </details> 
+
+  <details>
+    <summary><strong> 북마크 게시글 목록 </strong></summary>
+      <p align="center">
+        <img src="gif/bookmark/bookmark_2.gif">
+      </p>
+  </details> 
+
+  <details>
+    <summary><strong> 북마크 취소 </strong></summary>
+      <p align="center">
+        <img src="gif/bookmark/bookmark_3.gif">
+      </p>
+  </details> 
+
+ <details>
+    <summary><strong> 북마크 게시글 검색 </strong></summary>
+      <p align="center">
+        <img src="gif/bookmark/bookmark_4.gif">
+      </p>
+  </details> 
+</details>
+
+
+
+
+---
+
 ## :whale: **TRIGGER**
 <details>
   <summary><strong>트리거 1) 회원 로그인이력 발생 시 통계 집계</strong></summary>
