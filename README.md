@@ -1277,31 +1277,31 @@ master IP로 slave 연동 <br></br> <br></br>
 ---
 
 ## :whale: **TRIGGER**
+ <details>
+  <summary><strong>트리거 1) 도안 공유 게시판 게시글 작성 시 통계 집계</strong></summary>
+    <p align="center">
+      <img src="gif/수정트리거/수정트리거2번.gif">
+    </p>
+  </details>  
 <details>
-  <summary><strong>트리거 1) 회원 로그인이력 발생 시 통계 집계</strong></summary>
+  <summary><strong>트리거 2) 재료 나눔 게시글 작성 시 통계 집계</strong></summary>
+    <p align="center">
+      <img src="gif/수정트리거/수정트리거3번.gif">
+    </p>
+  </details> 
+<details>
+  <summary><strong>트리거 3) 행사 참여 최대 인원이 넘을 시 알림 발생</strong></summary>
+    <p align="center">
+      <img src="gif/수정트리거/수정트리거4번.gif">
+    </p>
+  </details>
+<details>
+  <summary><strong>트리거 4) 회원 로그인이력 발생 시 통계 집계</strong></summary>
   <div markdown = '1'>
   
   <p align="center">
     <img src="gif/트리거/트리거1번2번.gif">
   </p>
-  </details> 
- <details>
-  <summary><strong>트리거 2) 도안 공유 게시판 게시글 작성 시 통계 집계</strong></summary>
-    <p align="center">
-      <img src="gif/수정트리거/수정트리거2번.gif">
-    </p>
-  </details> 
-  <details>
-  <summary><strong>트리거 3) 재료 나눔 게시글 작성 시 통계 집계</strong></summary>
-    <p align="center">
-      <img src="gif/수정트리거/수정트리거3번.gif">
-    </p>
-  </details> 
-  <details>
-  <summary><strong>트리거 4) 행사 참여 최대 인원이 넘을 시 알림 발생</strong></summary>
-    <p align="center">
-      <img src="gif/수정트리거/수정트리거4번.gif">
-    </p>
   </details> 
 
   ## :whale: **JOIN**
