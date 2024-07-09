@@ -452,7 +452,8 @@ COMMENT = '댓글';
     FOREIGN KEY (mem_no) REFERENCES member(no),
     FOREIGN KEY (ques_no) REFERENCES question_board(no) ON DELETE CASCADE,
     FOREIGN KEY (ptrn_shr_no) REFERENCES pattern_share(no) ON DELETE CASCADE,
-    FOREIGN KEY (ans_no) REFERENCES answer(no) ON DELETE CASCADE
+    FOREIGN KEY (ans_no) REFERENCES answer(no) ON DELETE CASCADE,
+    FOREIGN KEY (cmt_no) REFERENCES comment(no) ON DELETE CASCADE
 )
 COMMENT = '신고';
 ```
