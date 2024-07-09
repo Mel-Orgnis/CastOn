@@ -766,163 +766,163 @@ master IP로 slave 연동 <br></br> <br></br>
   <details>
   <summary><strong>질문 게시글 조회</strong></summary>
   <p align="center">
-    <img src="gif/질문/질문글 조회.gif">
+    <img src="gif/question/질문글조회.gif">
   </p>
   </details> 
  <details>
   <summary><strong>질문 게시글 목록</strong></summary>
     <p align="center">
-      <img src="gif/질문/새로 작성된 글이 목록에 최신순으로 갱신.gif">
+      <img src="gif/question/질문게시판모든글조회.gif">
     </p>
   </details> 
   <details>
   <summary><strong>질문 제목으로 검색</strong></summary>
     <p align="center">
-      <img src="gif/질문/질문글 제목으로 검색.gif">
+      <img src="gif/question/질문제목으로검색.gif">
     </p>
   </details> 
   <details>
   <summary><strong>질문 작성자 ID로 검색</strong></summary>
     <p align="center">
-      <img src="gif/질문/질문작성자 ID으로 검색.gif">
+      <img src="gif/question/답변작성자로검색.gif">
     </p>
   </details> 
   <details>
   <summary><strong>질문 답변 상태로 검색</strong></summary>
     <p align="center">
-      <img src="gif/질문/질문상태로 검색.gif">
+      <img src="gif/question/답변유무로검색.gif">
     </p>
   </details> 
   <details>
   <summary><strong>질문 작성</strong></summary>
     <p align="center">
-      <img src="gif/질문/새로운 질문 작성.gif">
+      <img src="gif/question/새로운질문작성.gif">
     </p>
   </details> 
   <details>
   <summary><strong>질문 수정</strong></summary>
     <p align="center">
-      <img src="gif/질문/질문게시글 수정.gif">
+      <img src="gif/question/질문내용및제목수정.gif">
     </p>
   </details> 
   <details>
   <summary><strong>질문 삭제</strong></summary>
     <p align="center">
-      <img src="gif/질문/질문게시글 삭제.gif">
+      <img src="gif/question/질문삭제.gif">
     </p>
   </details> 
 <details>
   <summary><strong>질문 채택</strong></summary>
     <p align="center">
-      <img src="gif/질문/질문 채택.gif">
+      <img src="gif/question/질문채택.gif">
     </p>
   </details> 
   <details>
   <summary><strong>답변 작성</strong></summary>
     <p align="center">
-      <img src="gif/질문/질문게시글 삭제.gif">
+      <img src="gif/question/답변등록.gif">
     </p>
   </details> 
   <details>
   <summary><strong>답변 수정</strong></summary>
     <p align="center">
-      <img src="gif/질문/답변수정.gif">
+      <img src="gif/question/답변내용수정.gif">
     </p>
   </details> 
   <details>
   <summary><strong>답변 삭제</strong></summary>
     <p align="center">
-      <img src="gif/질문/답변삭제.gif">
+      <img src="gif/question/답변삭제.gif">
     </p>
   </details> 
   <details>
   <summary><strong>질문 좋아요</strong></summary>
     <p align="center">
-      <img src="gif/질문/질문 좋아요.gif">
+      <img src="gif/question/좋아요수UPDATE.gif">
     </p>
   </details> 
   <details>
   <summary><strong>질문 궁금해요</strong></summary>
     <p align="center">
-      <img src="gif/질문/나도 궁금해요.gif">
+      <img src="gif/question/나도궁금해요수UPDATE.gif">
     </p>
   </details> 
   <details>
   <summary><strong>답변 좋아요</strong></summary>
     <p align="center">
-      <img src="gif/질문/답변 좋아요.gif">
+      <img src="gif/question/답변좋아요UPDATE.gif">
     </p>
   </details> 
   <details>
   <summary><strong>답변 채택</strong></summary>
     <p align="center">
-      <img src="gif/질문/질문좋아요.gif">
+      <img src="gif/question/답변채택UPDATE.gif">
     </p>
   </details> 
   <details>
   <summary><strong>답변 내용으로 검색</strong></summary>
     <p align="center">
-      <img src="gif/질문/답변 내용으로 검색.gif">
+      <img src="gif/question/답변내용으로검색.gif">
     </p>
   </details> 
   <details>
   <summary><strong>답변 작성자로 검색</strong></summary>
     <p align="center">
-      <img src="gif/질문/답변 작성자로 검색.gif">
+      <img src="gif/question/답변작성자로검색.gif">
     </p>
   </details> 
 <details>
   <summary><strong>답변 채택 상태로 검색</strong></summary>
     <p align="center">
-      <img src="gif/질문/채택 상태로 검색.gif">
+      <img src="gif/question/채택상태로검색.gif">
     </p>
   </details> 
   <details>
   <summary><strong>게시글 북마크 등록</strong></summary>
     <p align="center">
-      <img src="gif/질문/질문 북마크 등록.gif">
+      <img src="gif/question/질문북마크등록.gif">
     </p>
   </details> 
   <details>
   <summary><strong>게시글 북마크 취소</strong></summary>
     <p align="center">
-      <img src="gif/질문/질문 북마크 삭제.gif">
+      <img src="gif/question/질문북마크삭제.gif">
     </p>
   </details> 
   <details>
   <summary><strong>댓글 작성</strong></summary>
     <p align="center">
-      <img src="gif/질문/질문에 댓글 달기.gif">
+      <img src="gif/question/질문에댓글달기.gif">
     </p>
   </details> 
   <details>
   <summary><strong>댓글 수정</strong></summary>
     <p align="center">
-      <img src="gif/질문/질문 댓글 내용 수정.gif">
+      <img src="gif/question/질문댓글내용수정.gif">
     </p>
   </details> 
   <details>
   <summary><strong>댓글 삭제</strong></summary>
     <p align="center">
-      <img src="gif/질문/질문 댓글 삭제.gif">
+      <img src="gif/question/질문댓글삭제.gif">
     </p>
   </details> 
 <details>
 <summary><strong>답변에 댓글 작성</strong></summary>
     <p align="center">
-      <img src="gif/질문/답변에 댓글 달기.gif">
+      <img src="gif/question/답변에댓글달기.gif">
     </p>
   </details> 
 <details>
 <summary><strong>답변 댓글 내용 수정</strong></summary>
     <p align="center">
-      <img src="gif/질문/답변 댓글 내용 수정.gif">
+      <img src="gif/question/답변댓글내용수정.gif">
     </p>
   </details> 
 <details>
 <summary><strong>답변 댓글 삭제</strong></summary>
     <p align="center">
-      <img src="gif/질문/답변 댓글 삭제.gif">
+      <img src="gif/question/답변댓글삭제.gif">
     </p>
   </details> 
   </details>
