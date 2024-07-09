@@ -1250,19 +1250,13 @@ master IP로 slave 연동 <br></br> <br></br>
     </p>
   </details> 
   <details>
-  <summary><strong>트리거 3) 도안 공유 게시판 게시글 작성 시 통계 집계</strong></summary>
-    <p align="center">
-      <img src="gif/트리거/트리거3번.gif">
-    </p>
-  </details> 
-  <details>
-  <summary><strong>트리거 4) 재료 나눔 게시글 작성 시 통계 집계</strong></summary>
+  <summary><strong>트리거 3) 재료 나눔 게시글 작성 시 통계 집계</strong></summary>
     <p align="center">
       <img src="gif/트리거/트리거4번.gif">
     </p>
   </details> 
   <details>
-  <summary><strong>트리거 5) 행사 참여 최대 인원이 넘을 시 알림 발생</strong></summary>
+  <summary><strong>트리거 4) 행사 참여 최대 인원이 넘을 시 알림 발생</strong></summary>
     <p align="center">
       <img src="gif/트리거/트리거5번.gif">
     </p>
