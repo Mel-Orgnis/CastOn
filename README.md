@@ -97,15 +97,13 @@
 
 ## :one: 개념 모델링
 <img src = "사진/caston개념모델.png"><br>
-### 고려 사항
 
 ## :two: 논리 모델링
 <img src = "사진/caston논리모델.png"><br>
-### 고려 사항
+
 
 ## :three: 물리 모델링
 <img src = "사진/caston물리모델.png"><br>
-### 고려 사항
 
 # :star2: DDL
 
@@ -1361,3 +1359,27 @@ master IP로 slave 연동 <br></br> <br></br>
 [:link:작성규칙 자세히 보기](https://docs.google.com/spreadsheets/d/1-Plo5h9zFCr5WkEksAg31gwjVR0dq3NxXzqlooIPhqc/edit?usp=sharing)
 
 <img src = "사진/작성규칙.jpg"> <br>
+
+<br>
+
+# :star2: 동료평가
+
+### 기우석
+> 우석님
+
+### 김동혁
+> 동혁님
+
+### 백경석
+> 경석님
+
+### 유혜진
+> 나
+
+### 이서현
+> 서현님
+
+### 이우진
+> 우진님
+
+
