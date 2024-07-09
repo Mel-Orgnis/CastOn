@@ -16,6 +16,8 @@
   <img src="https://img.shields.io/badge/github-181717?style=plastic&logo=github&logoColor=white">
   <img src="https://img.shields.io/badge/Linux-FFFFFF?style=plastic&logo=Linux&logoColor=black"/>
   <img src="https://img.shields.io/badge/Vim-019733?style=plastic&logo=Vim&logoColor=WHITE"/>
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=plastic&logo=Ubuntu&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Discord-5865F2?style=plastic&logo=Discord&logoColor=white"/>
 </div>
 <br>
 <br>
