@@ -1408,7 +1408,7 @@ master IP로 slave 연동 <br></br> <br></br>
 
 # :star2: 동료평가
 
-### 기우석
+### 🙉기우석
 
 <table>
   <tr>
@@ -1442,7 +1442,7 @@ master IP로 slave 연동 <br></br> <br></br>
 <tr></tr>
 </table>
 
-### 김동혁
+### 🦝김동혁
 
 <table>
   <tr>
@@ -1471,7 +1471,7 @@ master IP로 slave 연동 <br></br> <br></br>
   </tr>
 </table>
 
-### 백경석
+### 🐹백경석
 
 <table>
   <tr>
@@ -1504,7 +1504,7 @@ master IP로 slave 연동 <br></br> <br></br>
   </tr>
 </table>
 
-### 유혜진
+### 🐰유혜진
 
 <table>
   <tr>
@@ -1537,7 +1537,7 @@ master IP로 slave 연동 <br></br> <br></br>
   </tr>
 </table>
 
-### 이서현
+### 👽이서현
 
 <table>
   <tr>
@@ -1569,7 +1569,7 @@ master IP로 slave 연동 <br></br> <br></br>
   </tr>
 </table>
 
-### 이우진
+### 🐧이우진
 
 <table>
   <tr>
