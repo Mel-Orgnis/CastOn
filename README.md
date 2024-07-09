@@ -880,19 +880,19 @@ master IP로 slave 연동 <br></br> <br></br>
 <details>
   <summary><strong>질문글 북마크 취소</strong></summary>
     <p align="center">
-      <img src="gif/question/질문북마크삭제.gif">
+      <img src="gif/question/질문북마크취소.gif">
     </p>
   </details> 
 <details>
   <summary><strong>질문 댓글 작성</strong></summary>
     <p align="center">
-      <img src="gif/question/질문에댓글달기.gif">
+      <img src="gif/question/질문에댓글작성.gif">
     </p>
   </details> 
 <details>
   <summary><strong>질문 댓글 수정</strong></summary>
     <p align="center">
-      <img src="gif/question/질문댓글내용수정.gif">
+      <img src="gif/question/질문댓글수정.gif">
     </p>
   </details> 
 <details>
@@ -904,13 +904,13 @@ master IP로 slave 연동 <br></br> <br></br>
 <details>
   <summary><strong>답변에 댓글 작성</strong></summary>
     <p align="center">
-      <img src="gif/question/답변에댓글달기.gif">
+      <img src="gif/question/답변댓글작성.gif">
     </p>
   </details> 
 <details>
   <summary><strong>답변 댓글 내용 수정</strong></summary>
     <p align="center">
-      <img src="gif/question/답변댓글내용수정.gif">
+      <img src="gif/question/답변댓글수정.gif">
     </p>
   </details> 
 <details>
@@ -919,6 +919,7 @@ master IP로 slave 연동 <br></br> <br></br>
       <img src="gif/question/답변댓글삭제.gif">
     </p>
   </details>
+</details>
 
   --- 
 
