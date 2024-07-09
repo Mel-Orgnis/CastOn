@@ -107,6 +107,8 @@
 <img src = "사진/caston개념모델.png"><br>
 
 ## :two: 논리 모델링
+<img src = "사진/erd.png"><br>
+
 <img src = "사진/caston논리모델.png"><br>
 
 
